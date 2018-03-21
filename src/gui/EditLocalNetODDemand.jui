@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>EditLocalNetODDemand</class>
+ <widget class="QDialog" name="EditLocalNetODDemand">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>579</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edit Local Network OD Demand</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>classpath:resource/png/Write.png</normaloff>classpath:resource/png/Write.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableView" name="odDemandTableView"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,4,0,4,1,1">
+       <item>
+        <widget class="QLabel" name="searchVLabel">
+         <property name="maximumSize">
+          <size>
+           <width>38</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Vertical:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="vComboBox"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="searchHLabel">
+         <property name="maximumSize">
+          <size>
+           <width>52</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Horizontal:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="hComboBox"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okButton">
+         <property name="text">
+          <string>OK</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Ok.png</normaloff>classpath:resource/png/Ok.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Cancel.png</normaloff>classpath:resource/png/Cancel.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,48 @@
+$VMR
+* vehicle type
+4
+* From-Time  To-Time
+0.00 1.00
+* Factor
+0.05
+*
+* some
+* additional
+* comments
+* District number
+16
+* names:
+     hildesheimerin		altenbekenerwestin		geibelin	buergermeisterfinkin	friedrichswallin	georgin		schiffgrabenin		berlineralleein		marienin	lutherin	krausenin	lindemannalleein	mainzerin	stresemannalleein	stuevesin		andertiefenriedenordin
+*
+* District hildesheimerin Sum = 11660
+          0			454		0		60		4720		0		4812		68		13		0		364		743		0		125		46		46
+* District altenbekenerwestin Sum = 3071
+          860		0		0		0		0		0		0		0		0		0		0		2125		0		79		7		7
+* District geibelin Sum = 2338
+          0			0		0		0		9		0		421		673		29		0		609		278			21		103		60		60
+* District buergermeisterfinkin Sum = 1455
+          329		0		0		55		0		0		651		0		3		0		330			0		0		2		0		0
+* District friedrichswallin Sum = 19857
+		  4042		0		0		0		0		0		6767		0	7224		105		600		0		100		179		68		68
+* District georgin Sum = 2338
+		  177		0		24		6		437		559		504			0		558		7		40		0		1		6		3		3
+* District schiffgrabenin Sum = 10321
+          3488		0		204		529		6068		0		0		0		0		0		0		0		0		0		0		0
+* District berlineralleein Sum = 14880
+		 87		3		289		0		0		0		0		0		9897		263		623		0		1513		1167		272		272
+* District marienin Sum = 19729
+		  21		19		14		1019		7084		2526		0		7552		350		0		0		1		0	14		3		3
+* District lutherin Sum = 898
+		  0		0		0		0		38		2		0		697		1		0		0		0		0		0		0		0
+* District krausenin Sum = 3860
+		 350		139		767		559		468		4		0		941		2		0		18		0		27		80		10		10
+* District lindemannalleein Sum = 7726
+		  338		2937		72		0		1		0		0		0		0		0		0		0		2740		0		919		919
+* District mainzerin Sum = 5138
+          0		0		25		0		13		0		0		2182		2		0		149		2694		0		0		5		5
+* District stresemannalleein Sum = 2237
+         194		156		152		1		170		8		0		1233		6		0		39		228		0		9		3		3
+* District stuevesin Sum = 5517
+         69		15		71		0		69		0		43		310		18		0		84		1003		51		2		1		1
+* District andertiefenriedenordin Sum = 1744
+         69		15		71		0		69		0		43		310		18		0		86		1003		51		2		1		1

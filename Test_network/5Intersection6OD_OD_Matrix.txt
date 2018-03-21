@@ -1,0 +1,28 @@
+$VMR
+* vehicle type
+4
+* From-Time  To-Time
+0.00 1.00
+* Factor
+0.05
+*
+* some
+* additional
+* comments
+* District number
+8
+* names:
+		   x1		x2		x3		x4		x5		x6		
+*
+* District x1 Sum = 644
+          0			70		80		75		78		82		
+* District x2 Sum = 644
+          45		0		67		63		67		74		
+* District x3 Sum = 644
+          55		68		0		67		72		56		
+* District x4 Sum = 644
+          48		75		77		0		74		39
+* District x5 Sum = 644
+		  71		78		34		96		0		81
+* District x6 Sum = 644
+		  74		46		88		37		93		0  

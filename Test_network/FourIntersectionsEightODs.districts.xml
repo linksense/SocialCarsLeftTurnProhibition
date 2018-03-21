@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<tazs>
+    <taz id="A">
+        <tazSource id="gneE0" weight="1"/>
+        <tazSink id="gneE1" weight="1"/>
+
+    </taz>
+
+    <taz id="B">
+
+        <tazSource id="gneE2" weight="1"/>
+        <tazSink id="gneE3" weight="1"/>
+
+
+    </taz>
+
+    <taz id="C">
+
+        <tazSource id="gneE6" weight="1"/>
+        <tazSink id="gneE7" weight="1"/>
+
+    </taz>
+
+    <taz id="D">
+
+        <tazSource id="gneE9" weight="1"/>
+        <tazSink id="gneE8" weight="1"/>
+
+    </taz>
+
+    <taz id="E">
+
+        <tazSource id="gneE23" weight="1"/>
+        <tazSink id="gneE22" weight="1"/>
+
+    </taz>
+
+    <taz id="F">
+
+        <tazSource id="gneE21" weight="1"/>
+        <tazSink id="gneE20" weight="1"/>
+
+    </taz>
+
+    <taz id="G">
+
+        <tazSource id="gneE19" weight="1"/>
+        <tazSink id="gneE18" weight="1"/>
+
+    </taz>
+
+    <taz id="H">
+
+        <tazSource id="gneE17" weight="1"/>
+        <tazSink id="gneE16" weight="1"/>
+
+    </taz>
+
+</tazs>

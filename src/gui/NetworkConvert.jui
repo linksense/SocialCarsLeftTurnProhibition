@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>NetworkConvert</class>
+ <widget class="QDialog" name="NetworkConvert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>183</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>183</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Network Convertor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>classpath:resource/png/Refresh.png</normaloff>classpath:resource/png/Refresh.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout" columnstretch="0,6,0,0">
+       <item row="0" column="0">
+        <widget class="QLabel" name="sumoLabel">
+         <property name="text">
+          <string>SUMO  Net:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="sumoNetworkEdit">
+         <property name="minimumSize">
+          <size>
+           <width>260</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="sumoNetButton">
+         <property name="maximumSize">
+          <size>
+           <width>77</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Select</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Folder.png</normaloff>classpath:resource/png/Folder.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="odLabel">
+         <property name="text">
+          <string>OD    XML:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="odButton">
+         <property name="maximumSize">
+          <size>
+           <width>77</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Select</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Folder.png</normaloff>classpath:resource/png/Folder.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="localNetLabel">
+         <property name="text">
+          <string>Local Net:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="localNetworkEdit">
+         <property name="minimumSize">
+          <size>
+           <width>260</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="odXmlEdit">
+         <property name="minimumSize">
+          <size>
+           <width>260</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="odTXTLabel">
+         <property name="text">
+          <string>OD    TXT:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QPushButton" name="odDemandTXTButton">
+         <property name="text">
+          <string>Select</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Folder.png</normaloff>classpath:resource/png/Folder.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="odDemandTXTEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okButton">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Ok.png</normaloff>classpath:resource/png/Ok.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Cancel.png</normaloff>classpath:resource/png/Cancel.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<tazs>
+    <taz id="A">
+        <tazSource id="gneE13" weight="1"/>
+
+    </taz>
+
+
+    <taz id="B">
+
+        <tazSink id="gneE12" weight="1"/>
+
+    </taz>
+
+
+</tazs>

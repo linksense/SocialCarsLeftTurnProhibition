@@ -1,0 +1,32 @@
+$VMR
+* vehicle type
+4
+* From-Time  To-Time
+0.00 1.00
+* Factor
+0.05
+*
+* some
+* additional
+* comments
+* District number
+8
+* names:
+	A		B		C		D		E		F		G		H
+*
+* District A Sum = 644
+          0			92		92		92		92		92		92		92
+* District B Sum = 644
+          92		0		92		92		92		92		92		92
+* District C Sum = 644
+          92		92		0		92		92		92		92		92
+* District D Sum = 644
+          92		92		92		0		92		92		92		92
+* District E Sum = 644
+		  92		92		92		92		0		92		92		92
+* District F Sum = 644
+		  92		92		92		92		92		0		92		92
+* District G Sum = 644
+          92		92		92		92		92		92		0		92
+* District H Sum = 644
+		  92		92		92		92		92		92		92		0

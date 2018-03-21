@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>LoadLocalNetwork</class>
+ <widget class="QDialog" name="LoadLocalNetwork">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>395</width>
+    <height>88</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Load Local Network</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>classpath:resource/png/Go In.png</normaloff>classpath:resource/png/Go In.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="loadLocalLabel">
+         <property name="text">
+          <string>Local Net:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="localNetLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="localNetButton">
+         <property name="text">
+          <string>Select</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Folder.png</normaloff>classpath:resource/png/Folder.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okButton">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Ok.png</normaloff>classpath:resource/png/Ok.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>classpath:resource/png/Cancel.png</normaloff>classpath:resource/png/Cancel.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

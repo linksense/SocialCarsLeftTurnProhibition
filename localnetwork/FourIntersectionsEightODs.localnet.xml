@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localnetwork time="01/06/2017 23:22:41">
+    <!--Junction-->
+    <junction id="gneJ0" type="Other_Junction" x="-37.06" y="-74.97" intNode="[gneJ0@gneE0 -37.06 -73.32 13.89 1, gneJ0@gneE1 -37.06 -76.62 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ1" type="Junction" x="10.10" y="-74.97" intNode="[gneJ1@gneE1 5.35 -76.62 13.89 1, gneJ1@gneE15 8.45 -70.22 13.89 1, gneJ1@gneE0 5.35 -73.32 13.89 1, gneJ1@gneE2 8.45 -79.72 13.89 1, gneJ1@gneE3 11.75 -79.72 13.89 1, gneJ1@gneE14 11.75 -70.22 13.89 1, gneJ1@gneE4 14.85 -73.32 13.89 1, gneJ1@gneE5 14.85 -76.62 13.89 1]">
+        <intconnction id="InternalLink0@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE2" from_x="8.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE1" to_x="5.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE2" from_x="8.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE15" to_x="8.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE2" from_x="8.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE4" to_x="14.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE5" from_x="14.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE3" to_x="11.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE5" from_x="14.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE1" to_x="5.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE5" from_x="14.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE15" to_x="8.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE14" from_x="11.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE4" to_x="14.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE14" from_x="11.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE3" to_x="11.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE14" from_x="11.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE1" to_x="5.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE0" from_x="5.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE15" to_x="8.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE0" from_x="5.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE4" to_x="14.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@gneJ1" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ1@gneE0" from_x="5.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ1@gneE3" to_x="11.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="gneJ10" type="Other_Junction" x="75.10" y="25.3" intNode="[gneJ10@gneE20 73.45 25.3 13.89 1, gneJ10@gneE21 76.75 25.3 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ11" type="Other_Junction" x="115.52" y="-12.75" intNode="[gneJ11@gneE22 115.52 -11.1 13.89 1, gneJ11@gneE23 115.52 -14.4 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ2" type="Other_Junction" x="10.10" y="-114.6" intNode="[gneJ2@gneE2 8.45 -114.6 13.89 1, gneJ2@gneE3 11.75 -114.6 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ3" type="Junction" x="75.10" y="-74.97" intNode="[gneJ3@gneE6 73.45 -79.72 13.89 1, gneJ3@gneE5 70.35 -76.62 13.89 1, gneJ3@gneE7 76.75 -79.72 13.89 1, gneJ3@gneE11 76.75 -70.22 13.89 1, gneJ3@gneE10 73.45 -70.22 13.89 1, gneJ3@gneE9 79.85 -76.62 13.89 1, gneJ3@gneE4 70.35 -73.32 13.89 1, gneJ3@gneE8 79.85 -73.32 13.89 1]">
+        <intconnction id="InternalLink0@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE6" from_x="73.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE5" to_x="70.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE6" from_x="73.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE10" to_x="73.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE6" from_x="73.45" from_y="-79.72" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE8" to_x="79.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE9" from_x="79.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE7" to_x="76.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE9" from_x="79.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE5" to_x="70.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE9" from_x="79.85" from_y="-76.62" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE10" to_x="73.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE11" from_x="76.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE8" to_x="79.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE11" from_x="76.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE7" to_x="76.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE11" from_x="76.75" from_y="-70.22" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE5" to_x="70.35" to_y="-76.62" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE4" from_x="70.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE10" to_x="73.45" to_y="-70.22" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE4" from_x="70.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE8" to_x="79.85" to_y="-73.32" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@gneJ3" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ3@gneE4" from_x="70.35" from_y="-73.32" from_speed="13.89" from_lane="1" toNode="gneJ3@gneE7" to_x="76.75" to_y="-79.72" to_speed="13.89" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="gneJ4" type="Other_Junction" x="75.10" y="-117.37" intNode="[gneJ4@gneE6 73.45 -117.37 13.89 1, gneJ4@gneE7 76.75 -117.37 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ5" type="Other_Junction" x="116.31" y="-74.97" intNode="[gneJ5@gneE8 116.31 -73.32 13.89 1, gneJ5@gneE9 116.31 -76.62 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ6" type="Junction" x="75.10" y="-12.75" intNode="[gneJ6@gneE21 76.75 -8.0 13.89 1, gneJ6@gneE13 70.32 -11.13 13.89 1, gneJ6@gneE10 73.45 -17.52 13.89 1, gneJ6@gneE11 76.75 -17.52 13.89 1, gneJ6@gneE22 79.85 -11.1 13.89 1, gneJ6@gneE20 73.45 -8.0 13.89 1, gneJ6@gneE12 70.34 -14.43 13.89 1, gneJ6@gneE23 79.85 -14.4 13.89 1]">
+        <intconnction id="InternalLink0@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE10" from_x="73.45" from_y="-17.52" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE12" to_x="70.34" to_y="-14.43" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE10" from_x="73.45" from_y="-17.52" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE20" to_x="73.45" to_y="-8.0" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE10" from_x="73.45" from_y="-17.52" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE22" to_x="79.85" to_y="-11.1" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE23" from_x="79.85" from_y="-14.4" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE11" to_x="76.75" to_y="-17.52" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE23" from_x="79.85" from_y="-14.4" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE12" to_x="70.34" to_y="-14.43" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE23" from_x="79.85" from_y="-14.4" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE20" to_x="73.45" to_y="-8.0" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE21" from_x="76.75" from_y="-8.0" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE22" to_x="79.85" to_y="-11.1" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE21" from_x="76.75" from_y="-8.0" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE11" to_x="76.75" to_y="-17.52" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE21" from_x="76.75" from_y="-8.0" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE12" to_x="70.34" to_y="-14.43" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE13" from_x="70.32" from_y="-11.13" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE20" to_x="73.45" to_y="-8.0" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE13" from_x="70.32" from_y="-11.13" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE22" to_x="79.85" to_y="-11.1" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@gneJ6" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ6@gneE13" from_x="70.32" from_y="-11.13" from_speed="13.89" from_lane="1" toNode="gneJ6@gneE11" to_x="76.75" to_y="-17.52" to_speed="13.89" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="gneJ7" type="Junction" x="10.10" y="-13.14" intNode="[gneJ7@gneE13 14.86 -11.46 13.89 1, gneJ7@gneE16 5.35 -14.79 13.89 1, gneJ7@gneE19 11.75 -8.37 13.89 1, gneJ7@gneE12 14.88 -14.76 13.89 1, gneJ7@gneE18 8.45 -8.37 13.89 1, gneJ7@gneE17 5.35 -11.49 13.89 1, gneJ7@gneE15 8.45 -17.89 13.89 1, gneJ7@gneE14 11.75 -17.89 13.89 1]">
+        <intconnction id="InternalLink0@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE15" from_x="8.45" from_y="-17.89" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE16" to_x="5.35" to_y="-14.79" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE15" from_x="8.45" from_y="-17.89" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE18" to_x="8.45" to_y="-8.37" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE15" from_x="8.45" from_y="-17.89" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE13" to_x="14.86" to_y="-11.46" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE12" from_x="14.88" from_y="-14.76" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE14" to_x="11.75" to_y="-17.89" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE12" from_x="14.88" from_y="-14.76" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE16" to_x="5.35" to_y="-14.79" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE12" from_x="14.88" from_y="-14.76" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE18" to_x="8.45" to_y="-8.37" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE19" from_x="11.75" from_y="-8.37" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE13" to_x="14.86" to_y="-11.46" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE19" from_x="11.75" from_y="-8.37" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE14" to_x="11.75" to_y="-17.89" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE19" from_x="11.75" from_y="-8.37" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE16" to_x="5.35" to_y="-14.79" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE17" from_x="5.35" from_y="-11.49" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE18" to_x="8.45" to_y="-8.37" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE17" from_x="5.35" from_y="-11.49" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE13" to_x="14.86" to_y="-11.46" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@gneJ7" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="gneJ7@gneE17" from_x="5.35" from_y="-11.49" from_speed="13.89" from_lane="1" toNode="gneJ7@gneE14" to_x="11.75" to_y="-17.89" to_speed="13.89" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="gneJ8" type="Other_Junction" x="-37.06" y="-13.14" intNode="[gneJ8@gneE16 -37.06 -14.79 13.89 1, gneJ8@gneE17 -37.06 -11.49 13.89 1]"/>
+    <!--Junction-->
+    <junction id="gneJ9" type="Other_Junction" x="10.10" y="22.52" intNode="[gneJ9@gneE18 8.45 22.52 13.89 1, gneJ9@gneE19 11.75 22.52 13.89 1]"/>
+    <!--External Link-->
+    <extlink id="gneE0" fromJunction="gneJ0" toJunction="gneJ1" numLanes="1" speed="13.89" length="42.41">
+        <extconnction fromNode="gneJ0@gneE0" from_x="-37.06" from_y="-73.32" toNode="gneJ1@gneE0" to_x="5.35" to_y="-73.32" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE1" fromJunction="gneJ1" toJunction="gneJ0" numLanes="1" speed="13.89" length="42.41">
+        <extconnction fromNode="gneJ1@gneE1" from_x="5.35" from_y="-76.62" toNode="gneJ0@gneE1" to_x="-37.06" to_y="-76.62" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE10" fromJunction="gneJ3" toJunction="gneJ6" numLanes="1" speed="13.89" length="52.7">
+        <extconnction fromNode="gneJ3@gneE10" from_x="73.45" from_y="-70.22" toNode="gneJ6@gneE10" to_x="73.45" to_y="-17.52" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE11" fromJunction="gneJ6" toJunction="gneJ3" numLanes="1" speed="13.89" length="52.7">
+        <extconnction fromNode="gneJ6@gneE11" from_x="76.75" from_y="-17.52" toNode="gneJ3@gneE11" to_x="76.75" to_y="-70.22" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE12" fromJunction="gneJ6" toJunction="gneJ7" numLanes="1" speed="13.89" length="55.46">
+        <extconnction fromNode="gneJ6@gneE12" from_x="70.34" from_y="-14.43" toNode="gneJ7@gneE12" to_x="14.88" to_y="-14.76" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE13" fromJunction="gneJ7" toJunction="gneJ6" numLanes="1" speed="13.89" length="55.46">
+        <extconnction fromNode="gneJ7@gneE13" from_x="14.86" from_y="-11.46" toNode="gneJ6@gneE13" to_x="70.32" to_y="-11.13" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE14" fromJunction="gneJ7" toJunction="gneJ1" numLanes="1" speed="13.89" length="52.33">
+        <extconnction fromNode="gneJ7@gneE14" from_x="11.75" from_y="-17.89" toNode="gneJ1@gneE14" to_x="11.75" to_y="-70.22" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE15" fromJunction="gneJ1" toJunction="gneJ7" numLanes="1" speed="13.89" length="52.33">
+        <extconnction fromNode="gneJ1@gneE15" from_x="8.45" from_y="-70.22" toNode="gneJ7@gneE15" to_x="8.45" to_y="-17.89" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE16" fromJunction="gneJ7" toJunction="gneJ8" numLanes="1" speed="13.89" length="42.41">
+        <extconnction fromNode="gneJ7@gneE16" from_x="5.35" from_y="-14.79" toNode="gneJ8@gneE16" to_x="-37.06" to_y="-14.79" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE17" fromJunction="gneJ8" toJunction="gneJ7" numLanes="1" speed="13.89" length="42.41">
+        <extconnction fromNode="gneJ8@gneE17" from_x="-37.06" from_y="-11.49" toNode="gneJ7@gneE17" to_x="5.35" to_y="-11.49" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE18" fromJunction="gneJ7" toJunction="gneJ9" numLanes="1" speed="13.89" length="30.89">
+        <extconnction fromNode="gneJ7@gneE18" from_x="8.45" from_y="-8.37" toNode="gneJ9@gneE18" to_x="8.45" to_y="22.52" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE19" fromJunction="gneJ9" toJunction="gneJ7" numLanes="1" speed="13.89" length="30.89">
+        <extconnction fromNode="gneJ9@gneE19" from_x="11.75" from_y="22.52" toNode="gneJ7@gneE19" to_x="11.75" to_y="-8.37" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE2" fromJunction="gneJ2" toJunction="gneJ1" numLanes="1" speed="13.89" length="34.88">
+        <extconnction fromNode="gneJ2@gneE2" from_x="8.45" from_y="-114.6" toNode="gneJ1@gneE2" to_x="8.45" to_y="-79.72" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE20" fromJunction="gneJ6" toJunction="gneJ10" numLanes="1" speed="13.89" length="33.3">
+        <extconnction fromNode="gneJ6@gneE20" from_x="73.45" from_y="-8.0" toNode="gneJ10@gneE20" to_x="73.45" to_y="25.3" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE21" fromJunction="gneJ10" toJunction="gneJ6" numLanes="1" speed="13.89" length="33.3">
+        <extconnction fromNode="gneJ10@gneE21" from_x="76.75" from_y="25.3" toNode="gneJ6@gneE21" to_x="76.75" to_y="-8.0" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE22" fromJunction="gneJ6" toJunction="gneJ11" numLanes="1" speed="13.89" length="35.67">
+        <extconnction fromNode="gneJ6@gneE22" from_x="79.85" from_y="-11.1" toNode="gneJ11@gneE22" to_x="115.52" to_y="-11.1" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE23" fromJunction="gneJ11" toJunction="gneJ6" numLanes="1" speed="13.89" length="35.67">
+        <extconnction fromNode="gneJ11@gneE23" from_x="115.52" from_y="-14.4" toNode="gneJ6@gneE23" to_x="79.85" to_y="-14.4" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE3" fromJunction="gneJ1" toJunction="gneJ2" numLanes="1" speed="13.89" length="34.88">
+        <extconnction fromNode="gneJ1@gneE3" from_x="11.75" from_y="-79.72" toNode="gneJ2@gneE3" to_x="11.75" to_y="-114.6" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE4" fromJunction="gneJ1" toJunction="gneJ3" numLanes="1" speed="13.89" length="55.5">
+        <extconnction fromNode="gneJ1@gneE4" from_x="14.85" from_y="-73.32" toNode="gneJ3@gneE4" to_x="70.35" to_y="-73.32" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE5" fromJunction="gneJ3" toJunction="gneJ1" numLanes="1" speed="13.89" length="55.5">
+        <extconnction fromNode="gneJ3@gneE5" from_x="70.35" from_y="-76.62" toNode="gneJ1@gneE5" to_x="14.85" to_y="-76.62" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE6" fromJunction="gneJ4" toJunction="gneJ3" numLanes="1" speed="13.89" length="37.65">
+        <extconnction fromNode="gneJ4@gneE6" from_x="73.45" from_y="-117.37" toNode="gneJ3@gneE6" to_x="73.45" to_y="-79.72" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE7" fromJunction="gneJ3" toJunction="gneJ4" numLanes="1" speed="13.89" length="37.65">
+        <extconnction fromNode="gneJ3@gneE7" from_x="76.75" from_y="-79.72" toNode="gneJ4@gneE7" to_x="76.75" to_y="-117.37" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE8" fromJunction="gneJ3" toJunction="gneJ5" numLanes="1" speed="13.89" length="36.46">
+        <extconnction fromNode="gneJ3@gneE8" from_x="79.85" from_y="-73.32" toNode="gneJ5@gneE8" to_x="116.31" to_y="-73.32" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="gneE9" fromJunction="gneJ5" toJunction="gneJ3" numLanes="1" speed="13.89" length="36.46">
+        <extconnction fromNode="gneJ5@gneE9" from_x="116.31" from_y="-76.62" toNode="gneJ3@gneE9" to_x="79.85" to_y="-76.62" dir="s"/>
+    </extlink>
+    <!--Origin-->
+    <origin id="gneJ0@gneE0" x="-37.06" y="-73.32" lane="1" junction="gneJ0">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="0"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ2@gneE2" x="8.45" y="-114.6" lane="1" junction="gneJ2">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="0"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ4@gneE6" x="73.45" y="-117.37" lane="1" junction="gneJ4">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="0"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ5@gneE9" x="116.31" y="-76.62" lane="1" junction="gneJ5">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="0"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ11@gneE23" x="115.52" y="-14.4" lane="1" junction="gneJ11">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="0"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ10@gneE21" x="76.75" y="25.3" lane="1" junction="gneJ10">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="0"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ9@gneE19" x="11.75" y="22.52" lane="1" junction="gneJ9">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="0"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="92"/>
+    </origin>
+    <!--Origin-->
+    <origin id="gneJ8@gneE17" x="-37.06" y="-11.49" lane="1" junction="gneJ8">
+        <destination id="gneJ0@gneE1" x="-37.06" y="-76.62" lane="1" junction="gneJ0" demand="92"/>
+        <destination id="gneJ2@gneE3" x="11.75" y="-114.6" lane="1" junction="gneJ2" demand="92"/>
+        <destination id="gneJ4@gneE7" x="76.75" y="-117.37" lane="1" junction="gneJ4" demand="92"/>
+        <destination id="gneJ5@gneE8" x="116.31" y="-73.32" lane="1" junction="gneJ5" demand="92"/>
+        <destination id="gneJ11@gneE22" x="115.52" y="-11.1" lane="1" junction="gneJ11" demand="92"/>
+        <destination id="gneJ10@gneE20" x="73.45" y="25.3" lane="1" junction="gneJ10" demand="92"/>
+        <destination id="gneJ9@gneE18" x="8.45" y="22.52" lane="1" junction="gneJ9" demand="92"/>
+        <destination id="gneJ8@gneE16" x="-37.06" y="-14.79" lane="1" junction="gneJ8" demand="0"/>
+    </origin>
+</localnetwork>

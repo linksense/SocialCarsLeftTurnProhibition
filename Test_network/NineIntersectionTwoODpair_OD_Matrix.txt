@@ -1,0 +1,24 @@
+$VMR
+* vehicle type
+4
+* From-Time  To-Time
+0.00 1.00
+* Factor
+0.05
+*
+* some
+* additional
+* comments
+* District number
+4
+* names:
+	A		B		C		D
+*
+* District A Sum = 3600
+          0		1200		1500		900
+* District B Sum = 0
+          0			0		0			0
+* District C Sum = 0
+          0			0		0			0
+* District D Sum = 0
+          0			0		0			0

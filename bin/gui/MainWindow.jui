@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>classpath:resource/png/Applications.png</normaloff>classpath:resource/png/Applications.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,5,1">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="labelShow">
+          <property name="text">
+           <string>Show Local Network</string>
+          </property>
+          <property name="alignment">
+           <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignBottom|com.trolltech.qt.core.Qt.AlignmentFlag.AlignLeft</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLCDNumber" name="lcdNumber">
+          <property name="frameShape">
+           <enum>com.trolltech.qt.gui.QFrame.Shape.NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>com.trolltech.qt.gui.QFrame.Shadow.Sunken</enum>
+          </property>
+          <property name="smallDecimalPoint">
+           <bool>false</bool>
+          </property>
+          <property name="numDigits">
+           <number>16</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>com.trolltech.qt.gui.QLCDNumber.SegmentStyle.Flat</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="verticalScrollBarPolicy">
+         <enum>com.trolltech.qt.core.Qt.ScrollBarPolicy.ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>com.trolltech.qt.core.Qt.ScrollBarPolicy.ScrollBarAlwaysOff</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1031</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuStart">
+    <property name="title">
+     <string>Start</string>
+    </property>
+    <addaction name="actionNetworkConvert"/>
+    <addaction name="actionLoadLocalNetwork"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAboutJambi"/>
+    <addaction name="actionAboutThisSoftware"/>
+   </widget>
+   <widget class="QMenu" name="menuLocate">
+    <property name="title">
+     <string>Locate</string>
+    </property>
+    <addaction name="actionLocateJunctions"/>
+    <addaction name="actionLocateVertex"/>
+    <addaction name="actionLocateLink"/>
+    <addaction name="actionLocateLeftTurnLinks"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionZoomOut"/>
+    <addaction name="actionZoomIn"/>
+    <addaction name="actionAdjust"/>
+    <addaction name="actionScreenshot"/>
+    <addaction name="separator"/>
+    <addaction name="actionLocalNetworkSimplify"/>
+    <addaction name="actionEditODDemand"/>
+   </widget>
+   <widget class="QMenu" name="menuSimulate">
+    <property name="title">
+     <string>Simulate</string>
+    </property>
+    <addaction name="actionRun"/>
+    <addaction name="actionStop"/>
+   </widget>
+   <addaction name="menuStart"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuLocate"/>
+   <addaction name="menuSimulate"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="networkToolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNetworkConvert"/>
+   <addaction name="actionLocalNetworkSimplify"/>
+   <addaction name="actionLoadLocalNetwork"/>
+   <addaction name="actionEditODDemand"/>
+  </widget>
+  <widget class="QToolBar" name="graphShowToolBar">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+   <addaction name="actionAdjust"/>
+   <addaction name="actionScreenshot"/>
+  </widget>
+  <widget class="QToolBar" name="simulationToolBar">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRun"/>
+   <addaction name="actionStop"/>
+  </widget>
+  <widget class="QToolBar" name="locateToolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLocateVertex"/>
+   <addaction name="actionLocateLink"/>
+   <addaction name="actionLocateLeftTurnLinks"/>
+  </widget>
+  <action name="actionNetworkConvert">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Refresh.png</normaloff>classpath:resource/png/Refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Network Convert</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+C</string>
+   </property>
+  </action>
+  <action name="actionLoadLocalNetwork">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Go In.png</normaloff>classpath:resource/png/Go In.png</iconset>
+   </property>
+   <property name="text">
+    <string>Load Local Network</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+L</string>
+   </property>
+  </action>
+  <action name="actionAboutJambi">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Info2.png</normaloff>classpath:resource/png/Info2.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Jambi</string>
+   </property>
+  </action>
+  <action name="actionAboutThisSoftware">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Email.png</normaloff>classpath:resource/png/Email.png</iconset>
+   </property>
+   <property name="text">
+    <string>About This Software</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Standby.png</normaloff>classpath:resource/png/Standby.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Q</string>
+   </property>
+  </action>
+  <action name="actionLocateVertex">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Player Record.png</normaloff>classpath:resource/png/Player Record.png</iconset>
+   </property>
+   <property name="text">
+    <string>Locate Vertexs</string>
+   </property>
+  </action>
+  <action name="actionLocateLink">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Direction Vert.png</normaloff>classpath:resource/png/Direction Vert.png</iconset>
+   </property>
+   <property name="text">
+    <string>Locate Links</string>
+   </property>
+  </action>
+  <action name="actionLocateJunctions">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Card4.png</normaloff>classpath:resource/png/Card4.png</iconset>
+   </property>
+   <property name="text">
+    <string>Locate Junctions</string>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Zoom In.png</normaloff>classpath:resource/png/Zoom In.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom in</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+=</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Zoom Out.png</normaloff>classpath:resource/png/Zoom Out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom out</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+-</string>
+   </property>
+  </action>
+  <action name="actionAdjust">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Directions.png</normaloff>classpath:resource/png/Directions.png</iconset>
+   </property>
+   <property name="text">
+    <string>Auto adjust</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+A</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Player Play.png</normaloff>classpath:resource/png/Player Play.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+R</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Player Stop.png</normaloff>classpath:resource/png/Player Stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+T</string>
+   </property>
+  </action>
+  <action name="actionScreenshot">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Photo.png</normaloff>classpath:resource/png/Photo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Screenshot</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+J</string>
+   </property>
+  </action>
+  <action name="actionLocateLeftTurnLinks">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Hand.png</normaloff>classpath:resource/png/Hand.png</iconset>
+   </property>
+   <property name="text">
+    <string>Locate LeftTurnLinks</string>
+   </property>
+  </action>
+  <action name="actionLocalNetworkSimplify">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Graph.png</normaloff>classpath:resource/png/Graph.png</iconset>
+   </property>
+   <property name="text">
+    <string>Local Network Simplify</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+S</string>
+   </property>
+  </action>
+  <action name="actionEditODDemand">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:resource/png/Write.png</normaloff>classpath:resource/png/Write.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit OD Demand</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+D</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

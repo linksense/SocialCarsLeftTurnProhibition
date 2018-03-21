@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localnetwork time="01/06/2017 23:23:50">
+    <!--Junction-->
+    <junction id="AegiNord" type="Junction" x="214.63" y="-1798.4" intNode="[AegiNord@aeginord-aegisued 210.32 -1787.835 13.89 2, AegiNord@schiffgrabenout 222.905 -1812.105 13.89 2, AegiNord@georgout 205.41 -1816.11 13.89 1, AegiNord@aeginord-marien 228.19 -1794.045 13.89 2, AegiNord@georgin.100 201.22500000000002 -1813.4699999999998 13.89 2, AegiNord@aeginord-aegiwest 202.5 -1791.6233333333332 13.89 3, AegiNord@marien-aeginord 226.51 -1803.8000000000002 13.89 2, AegiNord@aegisued-aeginord 218.53333333333333 -1787.0600000000002 13.89 3, AegiNord@schiffgrabenin.90 212.51999999999998 -1815.5966666666666 13.89 3]">
+        <intconnction id="InternalLink0@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="1" fromNode="AegiNord@schiffgrabenin.90" from_x="212.51999999999998" from_y="-1815.5966666666666" from_speed="13.89" from_lane="3" toNode="AegiNord@aeginord-aegiwest" to_x="202.5" to_y="-1791.6233333333332" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink1@AegiNord" numLanes="2" fromLaneIndex="1,2" toLaneIndex="0,1" fromNode="AegiNord@schiffgrabenin.90" from_x="212.51999999999998" from_y="-1815.5966666666666" from_speed="13.89" from_lane="3" toNode="AegiNord@aeginord-aegisued" to_x="210.32" to_y="-1787.835" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink3@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AegiNord@marien-aeginord" from_x="226.51" from_y="-1803.8000000000002" from_speed="13.89" from_lane="2" toNode="AegiNord@schiffgrabenout" to_x="222.905" to_y="-1812.105" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink4@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AegiNord@marien-aeginord" from_x="226.51" from_y="-1803.8000000000002" from_speed="13.89" from_lane="2" toNode="AegiNord@georgout" to_x="205.41" to_y="-1816.11" to_speed="13.89" to_lane="1" dir="R"/>
+        <intconnction id="InternalLink5@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="1" fromNode="AegiNord@marien-aeginord" from_x="226.51" from_y="-1803.8000000000002" from_speed="13.89" from_lane="2" toNode="AegiNord@aeginord-aegiwest" to_x="202.5" to_y="-1791.6233333333332" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink6@AegiNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AegiNord@marien-aeginord" from_x="226.51" from_y="-1803.8000000000002" from_speed="13.89" from_lane="2" toNode="AegiNord@aeginord-aegisued" to_x="210.32" to_y="-1787.835" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink7@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AegiNord@aegisued-aeginord" from_x="218.53333333333333" from_y="-1787.0600000000002" from_speed="13.89" from_lane="3" toNode="AegiNord@aeginord-marien" to_x="228.19" to_y="-1794.045" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink8@AegiNord" numLanes="2" fromLaneIndex="1,2" toLaneIndex="0,1" fromNode="AegiNord@aegisued-aeginord" from_x="218.53333333333333" from_y="-1787.0600000000002" from_speed="13.89" from_lane="3" toNode="AegiNord@schiffgrabenout" to_x="222.905" to_y="-1812.105" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink10@AegiNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AegiNord@georgin.100" from_x="201.22500000000002" from_y="-1813.4699999999998" from_speed="13.89" from_lane="2" toNode="AegiNord@aeginord-aegiwest" to_x="202.5" to_y="-1791.6233333333332" to_speed="13.89" to_lane="3" dir="r"/>
+        <intconnction id="InternalLink11@AegiNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AegiNord@georgin.100" from_x="201.22500000000002" from_y="-1813.4699999999998" from_speed="13.89" from_lane="2" toNode="AegiNord@aeginord-aegisued" to_x="210.32" to_y="-1787.835" to_speed="13.89" to_lane="2" dir="s"/>
+        <phase id="1" duration="31" state="GGGrrrrGGGrr"/>
+        <phase id="2" duration="4" state="yyyrrrryyyrr"/>
+        <phase id="3" duration="31" state="rrrGGggGrrGG"/>
+        <phase id="4" duration="4" state="rrryyggyrryy"/>
+        <phase id="5" duration="6" state="rrrrrGGrrrrr"/>
+        <phase id="6" duration="4" state="rrrrryyrrrrr"/>
+        <request index="0" foes="110000110000"/>
+        <request index="1" foes="100001110000"/>
+        <request index="2" foes="100001110000"/>
+        <request index="3" foes="001100000000"/>
+        <request index="4" foes="001100000111"/>
+        <request index="5" foes="111100000111"/>
+        <request index="6" foes="101100000110"/>
+        <request index="7" foes="000000000000"/>
+        <request index="8" foes="000001111000"/>
+        <request index="9" foes="000001111000"/>
+        <request index="10" foes="000000100001"/>
+        <request index="11" foes="000001100111"/>
+    </junction>
+    <!--Junction-->
+    <junction id="AegiSued" type="Junction" x="206.67" y="-1714.03" intNode="[AegiSued@aegisued-schlaegernord 208.72 -1701.75 13.89 3, AegiSued@aeginord-aegisued 204.345 -1724.535 13.89 2, AegiSued@aegisued-aeginord 212.55999999999997 -1723.76 13.89 3, AegiSued@schlaegernord-aegiesued.200 218.415 -1708.0275000000001 13.89 4, AegiSued@friedrichswallin.150 197.46999999999997 -1706.0749999999998 13.89 4, AegiSued@aegisued-aegiwest 198.92000000000002 -1718.38 13.89 2]">
+        <intconnction id="InternalLink0@AegiSued" numLanes="2" fromLaneIndex="0,1" toLaneIndex="1,2" fromNode="AegiSued@aeginord-aegisued" from_x="204.345" from_y="-1724.535" from_speed="13.89" from_lane="2" toNode="AegiSued@aegisued-schlaegernord" to_x="208.72" to_y="-1701.75" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink2@AegiSued" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="AegiSued@schlaegernord-aegiesued.200" from_x="218.415" from_y="-1708.0275000000001" from_speed="13.89" from_lane="4" toNode="AegiSued@aegisued-aeginord" to_x="212.55999999999997" to_y="-1723.76" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink4@AegiSued" numLanes="2" fromLaneIndex="2,3" toLaneIndex="0,1" fromNode="AegiSued@schlaegernord-aegiesued.200" from_x="218.415" from_y="-1708.0275000000001" from_speed="13.89" from_lane="4" toNode="AegiSued@aegisued-aegiwest" to_x="198.92000000000002" to_y="-1718.38" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink6@AegiSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AegiSued@friedrichswallin.150" from_x="197.46999999999997" from_y="-1706.0749999999998" from_speed="13.89" from_lane="4" toNode="AegiSued@aegisued-schlaegernord" to_x="208.72" to_y="-1701.75" to_speed="13.89" to_lane="3" dir="r"/>
+        <intconnction id="InternalLink7@AegiSued" numLanes="3" fromLaneIndex="1,2,3" toLaneIndex="0,1,2" fromNode="AegiSued@friedrichswallin.150" from_x="197.46999999999997" from_y="-1706.0749999999998" from_speed="13.89" from_lane="4" toNode="AegiSued@aegisued-aeginord" to_x="212.55999999999997" to_y="-1723.76" to_speed="13.89" to_lane="3" dir="L"/>
+        <phase id="1" duration="31" state="ggGGGGGrrr"/>
+        <phase id="2" duration="4" state="ggyyyyyrrr"/>
+        <phase id="3" duration="6" state="GGrrrrrrrr"/>
+        <phase id="4" duration="4" state="yyrrrrrrrr"/>
+        <phase id="5" duration="31" state="rrrrrrGGGG"/>
+        <phase id="6" duration="4" state="rrrrrryyyy"/>
+        <request index="0" foes="1110110000"/>
+        <request index="1" foes="1110110000"/>
+        <request index="2" foes="1110000000"/>
+        <request index="3" foes="1110000000"/>
+        <request index="4" foes="1110000011"/>
+        <request index="5" foes="1110000011"/>
+        <request index="6" foes="0000000000"/>
+        <request index="7" foes="0000111111"/>
+        <request index="8" foes="0000111111"/>
+        <request index="9" foes="0000111111"/>
+    </junction>
+    <!--Junction-->
+    <junction id="AegiWest" type="Junction" x="150.23" y="-1721.46" intNode="[AegiWest@friedrichswallout 144.23 -1725.9166666666667 13.89 3, AegiWest@aeginord-aegiwest 152.36 -1731.7133333333331 13.89 3, AegiWest@aegisued-aegiwest 156.215 -1724.0 13.89 2]">
+        <intconnction id="InternalLink0@AegiWest" numLanes="3" fromLaneIndex="0,1,2" toLaneIndex="0,1,2" fromNode="AegiWest@aeginord-aegiwest" from_x="152.36" from_y="-1731.7133333333331" from_speed="13.89" from_lane="3" toNode="AegiWest@friedrichswallout" to_x="144.23" to_y="-1725.9166666666667" to_speed="13.89" to_lane="3" dir="r"/>
+        <intconnction id="InternalLink3@AegiWest" numLanes="2" fromLaneIndex="0,1" toLaneIndex="1,2" fromNode="AegiWest@aegisued-aegiwest" from_x="156.215" from_y="-1724.0" from_speed="13.89" from_lane="2" toNode="AegiWest@friedrichswallout" to_x="144.23" to_y="-1725.9166666666667" to_speed="13.89" to_lane="3" dir="s"/>
+        <phase id="1" duration="31" state="GGGrr"/>
+        <phase id="2" duration="4" state="yyyrr"/>
+        <phase id="3" duration="31" state="rrrGG"/>
+        <phase id="4" duration="4" state="rrryy"/>
+        <request index="0" foes="11000"/>
+        <request index="1" foes="11000"/>
+        <request index="2" foes="11000"/>
+        <request index="3" foes="00111"/>
+        <request index="4" foes="00111"/>
+    </junction>
+    <!--Junction-->
+    
+    <!--Junction-->
+    <junction id="AltenbekenerOst" type="Junction" x="1559.70" y="-447.67" intNode="[AltenbekenerOst@altenbekenermitte-altenbekenerost 1548.2350000000001 -441.16999999999996 13.89 2, AltenbekenerOst@stresemannalleein.5 1564.49 -441.11 13.89 1, AltenbekenerOst@jordansued-altenbekenerost 1565.5149999999999 -454.20000000000005 13.89 2, AltenbekenerOst@altenbekenerost-jordansued 1568.42 -448.27 13.89 2, AltenbekenerOst@jordannord-altenbekenerost.550 1550.89 -454.55 13.89 3, AltenbekenerOst@stresemannalleeout 1561.48 -439.74 13.89 1, AltenbekenerOst@altenbekenerost-jordannord 1559.81 -458.85 13.89 1, AltenbekenerOst@altenbekenerost-altenbekenermitte 1546.52 -447.54499999999996 13.89 2]">
+        <intconnction id="InternalLink0@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@jordansued-altenbekenerost" from_x="1565.5149999999999" from_y="-454.20000000000005" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@altenbekenerost-jordannord" to_x="1559.81" to_y="-458.85" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@AltenbekenerOst" numLanes="1" fromLaneIndex="1" toLaneIndex="1" fromNode="AltenbekenerOst@jordansued-altenbekenerost" from_x="1565.5149999999999" from_y="-454.20000000000005" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@altenbekenerost-altenbekenermitte" to_x="1546.52" to_y="-447.54499999999996" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink2@AltenbekenerOst" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AltenbekenerOst@jordansued-altenbekenerost" from_x="1565.5149999999999" from_y="-454.20000000000005" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@stresemannalleeout" to_x="1561.48" to_y="-439.74" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@stresemannalleein.5" from_x="1564.49" from_y="-441.11" from_speed="13.89" from_lane="1" toNode="AltenbekenerOst@altenbekenerost-jordansued" to_x="1568.42" to_y="-448.27" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink4@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@stresemannalleein.5" from_x="1564.49" from_y="-441.11" from_speed="13.89" from_lane="1" toNode="AltenbekenerOst@altenbekenerost-jordannord" to_x="1559.81" to_y="-458.85" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="1" fromNode="AltenbekenerOst@stresemannalleein.5" from_x="1564.49" from_y="-441.11" from_speed="13.89" from_lane="1" toNode="AltenbekenerOst@altenbekenerost-altenbekenermitte" to_x="1546.52" to_y="-447.54499999999996" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink6@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@altenbekenermitte-altenbekenerost" from_x="1548.2350000000001" from_y="-441.16999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@stresemannalleeout" to_x="1561.48" to_y="-439.74" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@altenbekenermitte-altenbekenerost" from_x="1548.2350000000001" from_y="-441.16999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@altenbekenerost-jordansued" to_x="1568.42" to_y="-448.27" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink8@AltenbekenerOst" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AltenbekenerOst@altenbekenermitte-altenbekenerost" from_x="1548.2350000000001" from_y="-441.16999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerOst@altenbekenerost-jordannord" to_x="1559.81" to_y="-458.85" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@AltenbekenerOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerOst@jordannord-altenbekenerost.550" from_x="1550.89" from_y="-454.55" from_speed="13.89" from_lane="3" toNode="AltenbekenerOst@altenbekenerost-altenbekenermitte" to_x="1546.52" to_y="-447.54499999999996" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink10@AltenbekenerOst" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AltenbekenerOst@jordannord-altenbekenerost.550" from_x="1550.89" from_y="-454.55" from_speed="13.89" from_lane="3" toNode="AltenbekenerOst@stresemannalleeout" to_x="1561.48" to_y="-439.74" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@AltenbekenerOst" numLanes="1" fromLaneIndex="2" toLaneIndex="0" fromNode="AltenbekenerOst@jordannord-altenbekenerost.550" from_x="1550.89" from_y="-454.55" from_speed="13.89" from_lane="3" toNode="AltenbekenerOst@altenbekenerost-jordansued" to_x="1568.42" to_y="-448.27" to_speed="13.89" to_lane="2" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="2" duration="4" state="rrryygrrryyg"/>
+        <phase id="3" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrryrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="6" duration="4" state="yygrrryygrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="8" duration="4" state="rryrrrrryrrr"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="AltenbekenerWest" type="Junction" x="961.89" y="-288.79" intNode="[AltenbekenerWest@altenbekenerwestout 949.51 -287.61 13.89 1, AltenbekenerWest@geibel-altenbekenerwest.350 954.3733333333333 -292.99 13.89 3, AltenbekenerWest@altenbekenerwest-altenbekenermitte 975.2149999999999 -288.855 13.89 2, AltenbekenerWest@hildesheimerout 962.595 -278.635 13.89 2, AltenbekenerWest@altenbekenerwest-geibel 961.8050000000001 -296.565 13.89 2, AltenbekenerWest@hildesheimerin.200 970.7266666666666 -282.0733333333333 13.89 3, AltenbekenerWest@altenbekenerwestin.200 950.63 -282.78999999999996 13.89 2, AltenbekenerWest@altenbekenermitte-altenbekenerwest 973.55 -295.245 13.89 2]">
+        <intconnction id="InternalLink0@AltenbekenerWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerWest@altenbekenermitte-altenbekenerwest" from_x="973.55" from_y="-295.245" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@altenbekenerwest-geibel" to_x="961.8050000000001" to_y="-296.565" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink1@AltenbekenerWest" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="AltenbekenerWest@altenbekenermitte-altenbekenerwest" from_x="973.55" from_y="-295.245" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@altenbekenerwestout" to_x="949.51" to_y="-287.61" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@AltenbekenerWest" numLanes="1" fromLaneIndex="1" toLaneIndex="1" fromNode="AltenbekenerWest@altenbekenermitte-altenbekenerwest" from_x="973.55" from_y="-295.245" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@hildesheimerout" to_x="962.595" to_y="-278.635" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink3@AltenbekenerWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerWest@hildesheimerin.200" from_x="970.7266666666666" from_y="-282.0733333333333" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@altenbekenerwest-altenbekenermitte" to_x="975.2149999999999" to_y="-288.855" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink4@AltenbekenerWest" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="AltenbekenerWest@hildesheimerin.200" from_x="970.7266666666666" from_y="-282.0733333333333" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@altenbekenerwest-geibel" to_x="961.8050000000001" to_y="-296.565" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink6@AltenbekenerWest" numLanes="1" fromLaneIndex="2" toLaneIndex="0" fromNode="AltenbekenerWest@hildesheimerin.200" from_x="970.7266666666666" from_y="-282.0733333333333" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@altenbekenerwestout" to_x="949.51" to_y="-287.61" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink7@AltenbekenerWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerWest@altenbekenerwestin.200" from_x="950.63" from_y="-282.78999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@hildesheimerout" to_x="962.595" to_y="-278.635" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink8@AltenbekenerWest" numLanes="1" fromLaneIndex="0" toLaneIndex="1" fromNode="AltenbekenerWest@altenbekenerwestin.200" from_x="950.63" from_y="-282.78999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@altenbekenerwest-altenbekenermitte" to_x="975.2149999999999" to_y="-288.855" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink9@AltenbekenerWest" numLanes="1" fromLaneIndex="1" toLaneIndex="1" fromNode="AltenbekenerWest@altenbekenerwestin.200" from_x="950.63" from_y="-282.78999999999996" from_speed="13.89" from_lane="2" toNode="AltenbekenerWest@altenbekenerwest-geibel" to_x="961.8050000000001" to_y="-296.565" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink10@AltenbekenerWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="AltenbekenerWest@geibel-altenbekenerwest.350" from_x="954.3733333333333" from_y="-292.99" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@altenbekenerwestout" to_x="949.51" to_y="-287.61" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink11@AltenbekenerWest" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="AltenbekenerWest@geibel-altenbekenerwest.350" from_x="954.3733333333333" from_y="-292.99" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@hildesheimerout" to_x="962.595" to_y="-278.635" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink13@AltenbekenerWest" numLanes="1" fromLaneIndex="2" toLaneIndex="1" fromNode="AltenbekenerWest@geibel-altenbekenerwest.350" from_x="954.3733333333333" from_y="-292.99" from_speed="13.89" from_lane="3" toNode="AltenbekenerWest@altenbekenerwest-altenbekenermitte" to_x="975.2149999999999" to_y="-288.855" to_speed="13.89" to_lane="2" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGGgrrrGGGg"/>
+        <phase id="2" duration="4" state="rrryyygrrryyyg"/>
+        <phase id="3" duration="6" state="rrrrrrGrrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrrryrrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrrGGgrrrr"/>
+        <phase id="6" duration="4" state="yygrrrryygrrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrrGrrrr"/>
+        <phase id="8" duration="4" state="rryrrrrrryrrrr"/>
+        <request index="0" foes="00001000110000"/>
+        <request index="1" foes="11111001110000"/>
+        <request index="2" foes="11100111110000"/>
+        <request index="3" foes="10000100000000"/>
+        <request index="4" foes="10001100000111"/>
+        <request index="5" foes="10001100000111"/>
+        <request index="6" foes="01111100000110"/>
+        <request index="7" foes="01100000000100"/>
+        <request index="8" foes="11100001111100"/>
+        <request index="9" foes="11100001110011"/>
+        <request index="10" foes="00000001000010"/>
+        <request index="11" foes="00001111000110"/>
+        <request index="12" foes="00001111000110"/>
+        <request index="13" foes="00001100111110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="AltenbekenerWestinout" type="Other_Junction" x="700.96" y="-228.28" intNode="[AltenbekenerWestinout@altenbekenerwestin 702.08 -223.46 13.89 1, AltenbekenerWestinout@altenbekenerwestout.260 700.59 -229.89 13.89 1]"/>
+    <!--Junction-->
+    <junction id="AnDTiefenriedeNord" type="Other_Junction" x="1212.32" y="-607.42" intNode="[AnDTiefenriedeNord@andertiefenriedenordin 1207.38 -607.73 8.33 1, AnDTiefenriedeNord@andertiefenriedenordout.250 1213.97 -607.32 8.33 1]"/>
+    <!--Junction-->
+    <junction id="AnDerTiefenriede" type="Other_Junction" x="1174.58" y="-164.99" intNode="[AnDerTiefenriede@andertiefenriedein 1179.5 -164.42 8.33 1, AnDerTiefenriede@andertiefenriedeout.180 1172.94 -165.18 8.33 1]"/>
+    <!--Junction-->
+    <junction id="BerlineralleeIn" type="Other_Junction" x="774.64" y="-2093.6" intNode="[BerlineralleeIn@berlineralleein 768.79 -2090.545 13.89 2]"/>
+    <!--Junction-->
+    <junction id="BerlineralleeOut" type="Other_Junction" x="791.57" y="-2094.78" intNode="[BerlineralleeOut@berlineralleeout.190 794.605 -2096.075 13.89 2]"/>
+    <!--Junction-->
+    <junction id="BuergermeisterFink" type="Other_Junction" x="433.86" y="-972.19" intNode="[BuergermeisterFink@buergermeisterfinkin 434.29 -970.6 8.33 1, BuergermeisterFink@buergermeisterfinkout.170 433.43 -973.78 8.33 1]"/>
+    <!--Junction-->
+    <junction id="FriedrichswallIn" type="Other_Junction" x="0.87" y="-1685.12" intNode="[FriedrichswallIn@friedrichswallin 2.02 -1676.95 13.89 3]"/>
+    <!--Junction-->
+    <junction id="FriedrichswallOut" type="Other_Junction" x="0.00" y="-1708.65" intNode="[FriedrichswallOut@friedrichswallout.140 -0.41999999999999993 -1713.58 13.89 3]"/>
+    <!--Junction-->
+    <junction id="Geibel" type="Junction" x="756.25" y="-715.83" intNode="[Geibel@geibel-krausenwest 755.6800000000001 -724.405 13.89 2, Geibel@krausenwest-geibel 749.77 -721.475 13.89 2, Geibel@geibelout 745.31 -712.43 8.33 1, Geibel@geibelmitte-geibel.330 762.125 -722.27 8.33 2, Geibel@geibel-altenbekenerwest 753.785 -705.735 13.89 2, Geibel@geibel-geibelmitte 764.25 -717.8 8.33 1, Geibel@altenbekenerwest-geibel 762.705 -710.0350000000001 13.89 2, Geibel@geibelin.190 747.45 -707.96 8.33 2]">
+        <intconnction id="InternalLink0@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@geibelmitte-geibel.330" from_x="762.125" from_y="-722.27" from_speed="8.33" from_lane="2" toNode="Geibel@geibel-krausenwest" to_x="755.6800000000001" to_y="-724.405" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink1@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@geibelmitte-geibel.330" from_x="762.125" from_y="-722.27" from_speed="8.33" from_lane="2" toNode="Geibel@geibelout" to_x="745.31" to_y="-712.43" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@Geibel" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="Geibel@geibelmitte-geibel.330" from_x="762.125" from_y="-722.27" from_speed="8.33" from_lane="2" toNode="Geibel@geibel-altenbekenerwest" to_x="753.785" to_y="-705.735" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink3@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@altenbekenerwest-geibel" from_x="762.705" from_y="-710.0350000000001" from_speed="13.89" from_lane="2" toNode="Geibel@geibel-geibelmitte" to_x="764.25" to_y="-717.8" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@Geibel" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="Geibel@altenbekenerwest-geibel" from_x="762.705" from_y="-710.0350000000001" from_speed="13.89" from_lane="2" toNode="Geibel@geibel-krausenwest" to_x="755.6800000000001" to_y="-724.405" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink6@Geibel" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="Geibel@altenbekenerwest-geibel" from_x="762.705" from_y="-710.0350000000001" from_speed="13.89" from_lane="2" toNode="Geibel@geibelout" to_x="745.31" to_y="-712.43" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink7@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@geibelin.190" from_x="747.45" from_y="-707.96" from_speed="8.33" from_lane="2" toNode="Geibel@geibel-altenbekenerwest" to_x="753.785" to_y="-705.735" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink8@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@geibelin.190" from_x="747.45" from_y="-707.96" from_speed="8.33" from_lane="2" toNode="Geibel@geibel-geibelmitte" to_x="764.25" to_y="-717.8" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink9@Geibel" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="Geibel@geibelin.190" from_x="747.45" from_y="-707.96" from_speed="8.33" from_lane="2" toNode="Geibel@geibel-krausenwest" to_x="755.6800000000001" to_y="-724.405" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink10@Geibel" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Geibel@krausenwest-geibel" from_x="749.77" from_y="-721.475" from_speed="13.89" from_lane="2" toNode="Geibel@geibelout" to_x="745.31" to_y="-712.43" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink11@Geibel" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="Geibel@krausenwest-geibel" from_x="749.77" from_y="-721.475" from_speed="13.89" from_lane="2" toNode="Geibel@geibel-altenbekenerwest" to_x="753.785" to_y="-705.735" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink13@Geibel" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="Geibel@krausenwest-geibel" from_x="749.77" from_y="-721.475" from_speed="13.89" from_lane="2" toNode="Geibel@geibel-geibelmitte" to_x="764.25" to_y="-717.8" to_speed="8.33" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGGgrrrGGGg"/>
+        <phase id="2" duration="4" state="rrryyygrrryyyg"/>
+        <phase id="3" duration="6" state="rrrrrrGrrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrrryrrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrrGGgrrrr"/>
+        <phase id="6" duration="4" state="yygrrrryygrrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrrGrrrr"/>
+        <phase id="8" duration="4" state="rryrrrrrryrrrr"/>
+        <request index="0" foes="00001000110000"/>
+        <request index="1" foes="11111001110000"/>
+        <request index="2" foes="11100111110000"/>
+        <request index="3" foes="10000100000000"/>
+        <request index="4" foes="10001100000111"/>
+        <request index="5" foes="10001100000111"/>
+        <request index="6" foes="01111100000110"/>
+        <request index="7" foes="01100000000100"/>
+        <request index="8" foes="11100001111100"/>
+        <request index="9" foes="11100001110011"/>
+        <request index="10" foes="00000001000010"/>
+        <request index="11" foes="00001111000110"/>
+        <request index="12" foes="00001111000110"/>
+        <request index="13" foes="00001100111110"/>
+    </junction>
+    <!--Junction-->
+    
+    <!--Junction-->
+    <junction id="GeibelWest" type="Other_Junction" x="566.50" y="-625.04" intNode="[GeibelWest@geibelin 568.64 -620.57 8.33 1, GeibelWest@geibelout.200 565.79 -626.53 8.33 1]"/>
+    <!--Junction-->
+    <junction id="Georg" type="Other_Junction" x="131.08" y="-1930.89" intNode="[Georg@georgin 126.89 -1928.25 13.89 1, Georg@georgout.150 132.48 -1931.77 13.89 1]"/>
+    <!--Junction-->
+    <junction id="HildesheimerIn" type="Other_Junction" x="1091.38" y="-26.63" intNode="[HildesheimerIn@hildesheimerin 1097.3 -29.55 13.89 2]"/>
+    <!--Junction-->
+    <junction id="HildesheimerOut" type="Other_Junction" x="1083.77" y="-0.0" intNode="[HildesheimerOut@hildesheimerout.310 1080.73 1.28 13.89 2]"/>
+    <!--Junction-->
+    <junction id="JordanNord" type="Junction" x="1303.14" y="-980.01" intNode="[JordanNord@jordannord-geibelmitte 1292.17 -976.42 8.33 1, JordanNord@altenbekenerost-jordannord.550 1317.45 -957.9200000000001 13.89 2, JordanNord@geibelmitte-jordannord.230 1294.37 -971.985 8.33 2, JordanNord@jordannord-krausenost 1305.45 -986.48 13.89 1, JordanNord@jordansued-jordannord.630 1326.5349999999999 -967.955 8.33 2, JordanNord@krausenost-jordannord.300 1298.065 -982.8050000000001 13.89 2, JordanNord@jordannord-jordansued 1321.87 -961.15 8.33 1, JordanNord@jordannord-altenbekenerost 1307.04 -952.91 13.89 1]">
+        <intconnction id="InternalLink0@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@jordansued-jordannord.630" from_x="1326.5349999999999" from_y="-967.955" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-krausenost" to_x="1305.45" to_y="-986.48" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink1@JordanNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanNord@jordansued-jordannord.630" from_x="1326.5349999999999" from_y="-967.955" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-geibelmitte" to_x="1292.17" to_y="-976.42" to_speed="8.33" to_lane="1" dir="L"/>
+        <intconnction id="InternalLink2@JordanNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanNord@jordansued-jordannord.630" from_x="1326.5349999999999" from_y="-967.955" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-altenbekenerost" to_x="1307.04" to_y="-952.91" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@altenbekenerost-jordannord.550" from_x="1317.45" from_y="-957.9200000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-jordansued" to_x="1321.87" to_y="-961.15" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@altenbekenerost-jordannord.550" from_x="1317.45" from_y="-957.9200000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-krausenost" to_x="1305.45" to_y="-986.48" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@JordanNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanNord@altenbekenerost-jordannord.550" from_x="1317.45" from_y="-957.9200000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-geibelmitte" to_x="1292.17" to_y="-976.42" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@geibelmitte-jordannord.230" from_x="1294.37" from_y="-971.985" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-altenbekenerost" to_x="1307.04" to_y="-952.91" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@geibelmitte-jordannord.230" from_x="1294.37" from_y="-971.985" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-jordansued" to_x="1321.87" to_y="-961.15" to_speed="8.33" to_lane="1" dir="R"/>
+        <intconnction id="InternalLink8@JordanNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanNord@geibelmitte-jordannord.230" from_x="1294.37" from_y="-971.985" from_speed="8.33" from_lane="2" toNode="JordanNord@jordannord-krausenost" to_x="1305.45" to_y="-986.48" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@krausenost-jordannord.300" from_x="1298.065" from_y="-982.8050000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-geibelmitte" to_x="1292.17" to_y="-976.42" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@JordanNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanNord@krausenost-jordannord.300" from_x="1298.065" from_y="-982.8050000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-altenbekenerost" to_x="1307.04" to_y="-952.91" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@JordanNord" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanNord@krausenost-jordannord.300" from_x="1298.065" from_y="-982.8050000000001" from_speed="13.89" from_lane="2" toNode="JordanNord@jordannord-jordansued" to_x="1321.87" to_y="-961.15" to_speed="8.33" to_lane="1" dir="s"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="JordanSued" type="Junction" x="1862.42" y="-596.17" intNode="[JordanSued@jordansued-jordannord 1854.74 -607.44 8.33 1, JordanSued@jordannord-jordansued.630 1850.075 -600.64 8.33 2, JordanSued@lindemannalleein.150 1868.1966666666667 -604.7966666666666 13.89 3, JordanSued@jordansued-altenbekenerost 1849.5549999999998 -593.535 13.89 2, JordanSued@altenbekenerost-jordansued 1852.4650000000001 -587.61 13.89 2, JordanSued@mainzerout 1866.18 -589.61 13.89 1, JordanSued@lindemannalleeout 1871.27 -598.95 13.89 1, JordanSued@mainzerin.200 1869.83 -592.955 13.89 2]">
+        <intconnction id="InternalLink0@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@lindemannalleein.150" from_x="1868.1966666666667" from_y="-604.7966666666666" from_speed="13.89" from_lane="3" toNode="JordanSued@jordansued-jordannord" to_x="1854.74" to_y="-607.44" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@JordanSued" numLanes="2" fromLaneIndex="1,2" toLaneIndex="0,1" fromNode="JordanSued@lindemannalleein.150" from_x="1868.1966666666667" from_y="-604.7966666666666" from_speed="13.89" from_lane="3" toNode="JordanSued@jordansued-altenbekenerost" to_x="1849.5549999999998" to_y="-593.535" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink3@JordanSued" numLanes="1" fromLaneIndex="2" toLaneIndex="0" fromNode="JordanSued@lindemannalleein.150" from_x="1868.1966666666667" from_y="-604.7966666666666" from_speed="13.89" from_lane="3" toNode="JordanSued@mainzerout" to_x="1866.18" to_y="-589.61" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink4@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@mainzerin.200" from_x="1869.83" from_y="-592.955" from_speed="13.89" from_lane="2" toNode="JordanSued@lindemannalleeout" to_x="1871.27" to_y="-598.95" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink5@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@mainzerin.200" from_x="1869.83" from_y="-592.955" from_speed="13.89" from_lane="2" toNode="JordanSued@jordansued-jordannord" to_x="1854.74" to_y="-607.44" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink6@JordanSued" numLanes="1" fromLaneIndex="1" toLaneIndex="1" fromNode="JordanSued@mainzerin.200" from_x="1869.83" from_y="-592.955" from_speed="13.89" from_lane="2" toNode="JordanSued@jordansued-altenbekenerost" to_x="1849.5549999999998" to_y="-593.535" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink7@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@altenbekenerost-jordansued" from_x="1852.4650000000001" from_y="-587.61" from_speed="13.89" from_lane="2" toNode="JordanSued@mainzerout" to_x="1866.18" to_y="-589.61" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink8@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@altenbekenerost-jordansued" from_x="1852.4650000000001" from_y="-587.61" from_speed="13.89" from_lane="2" toNode="JordanSued@lindemannalleeout" to_x="1871.27" to_y="-598.95" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink9@JordanSued" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanSued@altenbekenerost-jordansued" from_x="1852.4650000000001" from_y="-587.61" from_speed="13.89" from_lane="2" toNode="JordanSued@jordansued-jordannord" to_x="1854.74" to_y="-607.44" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink10@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@jordannord-jordansued.630" from_x="1850.075" from_y="-600.64" from_speed="8.33" from_lane="2" toNode="JordanSued@jordansued-altenbekenerost" to_x="1849.5549999999998" to_y="-593.535" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink11@JordanSued" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="JordanSued@jordannord-jordansued.630" from_x="1850.075" from_y="-600.64" from_speed="8.33" from_lane="2" toNode="JordanSued@mainzerout" to_x="1866.18" to_y="-589.61" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink12@JordanSued" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="JordanSued@jordannord-jordansued.630" from_x="1850.075" from_y="-600.64" from_speed="8.33" from_lane="2" toNode="JordanSued@lindemannalleeout" to_x="1871.27" to_y="-598.95" to_speed="13.89" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGGgrrrGGgrrr"/>
+        <phase id="2" duration="4" state="yyygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrrGrrrrrGrrr"/>
+        <phase id="4" duration="4" state="rrryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrrGGgrrrGGg"/>
+        <phase id="6" duration="4" state="rrrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrrGrrrrrG"/>
+        <phase id="8" duration="4" state="rrrrrryrrrrry"/>
+        <request index="0" foes="0001000100000"/>
+        <request index="1" foes="1111001100000"/>
+        <request index="2" foes="1111001100000"/>
+        <request index="3" foes="1100111100000"/>
+        <request index="4" foes="1000100000000"/>
+        <request index="5" foes="1001100001111"/>
+        <request index="6" foes="0111100001110"/>
+        <request index="7" foes="0100000001000"/>
+        <request index="8" foes="1100001111000"/>
+        <request index="9" foes="1100001100111"/>
+        <request index="10" foes="0000001000110"/>
+        <request index="11" foes="0001111001110"/>
+        <request index="12" foes="0001100111110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="Krausen" type="Other_Junction" x="1255.35" y="-1323.96" intNode="[Krausen@krausenin 1254.72 -1325.49 8.33 1, Krausen@krausenout.100 1255.98 -1322.43 8.33 1]"/>
+    <!--Junction-->
+    <junction id="KrausenOst" type="Junction" x="1152.86" y="-1281.85" intNode="[KrausenOst@krausenost-luther 1152.39 -1286.82 13.89 1, KrausenOst@jordannord-krausenost.300 1158.145 -1278.635 13.89 2, KrausenOst@krausenost-schlaegermitte 1144.93 -1279.9 8.33 1, KrausenOst@luther-krausenost 1149.39 -1285.44 13.89 1, KrausenOst@schlaegermitte-krausenost 1146.35 -1276.92 8.33 1, KrausenOst@krausenost-jordannord 1150.76 -1274.96 13.89 1, KrausenOst@krausenout 1161.17 -1283.48 8.33 1, KrausenOst@krausenin.5 1159.91 -1286.53 8.33 1]">
+        <intconnction id="InternalLink0@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@krausenin.5" from_x="1159.91" from_y="-1286.53" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenost-luther" to_x="1152.39" to_y="-1286.82" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@krausenin.5" from_x="1159.91" from_y="-1286.53" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenost-schlaegermitte" to_x="1144.93" to_y="-1279.9" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@krausenin.5" from_x="1159.91" from_y="-1286.53" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenost-jordannord" to_x="1150.76" to_y="-1274.96" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@jordannord-krausenost.300" from_x="1158.145" from_y="-1278.635" from_speed="13.89" from_lane="2" toNode="KrausenOst@krausenout" to_x="1161.17" to_y="-1283.48" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@KrausenOst" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="KrausenOst@jordannord-krausenost.300" from_x="1158.145" from_y="-1278.635" from_speed="13.89" from_lane="2" toNode="KrausenOst@krausenost-luther" to_x="1152.39" to_y="-1286.82" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@KrausenOst" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="KrausenOst@jordannord-krausenost.300" from_x="1158.145" from_y="-1278.635" from_speed="13.89" from_lane="2" toNode="KrausenOst@krausenost-schlaegermitte" to_x="1144.93" to_y="-1279.9" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@schlaegermitte-krausenost" from_x="1146.35" from_y="-1276.92" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenost-jordannord" to_x="1150.76" to_y="-1274.96" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@schlaegermitte-krausenost" from_x="1146.35" from_y="-1276.92" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenout" to_x="1161.17" to_y="-1283.48" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@schlaegermitte-krausenost" from_x="1146.35" from_y="-1276.92" from_speed="8.33" from_lane="1" toNode="KrausenOst@krausenost-luther" to_x="1152.39" to_y="-1286.82" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@luther-krausenost" from_x="1149.39" from_y="-1285.44" from_speed="13.89" from_lane="1" toNode="KrausenOst@krausenost-schlaegermitte" to_x="1144.93" to_y="-1279.9" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@luther-krausenost" from_x="1149.39" from_y="-1285.44" from_speed="13.89" from_lane="1" toNode="KrausenOst@krausenost-jordannord" to_x="1150.76" to_y="-1274.96" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@KrausenOst" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenOst@luther-krausenost" from_x="1149.39" from_y="-1285.44" from_speed="13.89" from_lane="1" toNode="KrausenOst@krausenout" to_x="1161.17" to_y="-1283.48" to_speed="8.33" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="2" duration="4" state="rrryygrrryyg"/>
+        <phase id="3" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrryrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="6" duration="4" state="yygrrryygrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="8" duration="4" state="rryrrrrryrrr"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="KrausenWest" type="Junction" x="605.94" y="-1018.88" intNode="[KrausenWest@buergermeisterfinkout 596.95 -1018.15 8.33 1, KrausenWest@krausenwest-geibel 605.115 -1013.115 13.89 2, KrausenWest@schlaegernord-krausenwest 600.19 -1022.9 13.89 2, KrausenWest@buergermeisterfinkin.5 597.81 -1014.96 8.33 1, KrausenWest@schlaegermitte-krausenwest 612.48 -1023.9 8.33 1, KrausenWest@krausenwest-schlaegernord 606.075 -1025.89 13.89 2, KrausenWest@geibel-krausenwest 611.03 -1016.05 13.89 2, KrausenWest@krausenwest-schlaegermitte 613.92 -1020.93 8.33 1]">
+        <intconnction id="InternalLink0@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@schlaegermitte-krausenwest" from_x="612.48" from_y="-1023.9" from_speed="8.33" from_lane="1" toNode="KrausenWest@krausenwest-schlaegernord" to_x="606.075" to_y="-1025.89" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink1@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@schlaegermitte-krausenwest" from_x="612.48" from_y="-1023.9" from_speed="8.33" from_lane="1" toNode="KrausenWest@buergermeisterfinkout" to_x="596.95" to_y="-1018.15" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@schlaegermitte-krausenwest" from_x="612.48" from_y="-1023.9" from_speed="8.33" from_lane="1" toNode="KrausenWest@krausenwest-geibel" to_x="605.115" to_y="-1013.115" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink3@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@geibel-krausenwest" from_x="611.03" from_y="-1016.05" from_speed="13.89" from_lane="2" toNode="KrausenWest@krausenwest-schlaegermitte" to_x="613.92" to_y="-1020.93" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@KrausenWest" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="KrausenWest@geibel-krausenwest" from_x="611.03" from_y="-1016.05" from_speed="13.89" from_lane="2" toNode="KrausenWest@krausenwest-schlaegernord" to_x="606.075" to_y="-1025.89" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink6@KrausenWest" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="KrausenWest@geibel-krausenwest" from_x="611.03" from_y="-1016.05" from_speed="13.89" from_lane="2" toNode="KrausenWest@buergermeisterfinkout" to_x="596.95" to_y="-1018.15" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink7@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@buergermeisterfinkin.5" from_x="597.81" from_y="-1014.96" from_speed="8.33" from_lane="1" toNode="KrausenWest@krausenwest-geibel" to_x="605.115" to_y="-1013.115" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink8@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@buergermeisterfinkin.5" from_x="597.81" from_y="-1014.96" from_speed="8.33" from_lane="1" toNode="KrausenWest@krausenwest-schlaegermitte" to_x="613.92" to_y="-1020.93" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink9@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@buergermeisterfinkin.5" from_x="597.81" from_y="-1014.96" from_speed="8.33" from_lane="1" toNode="KrausenWest@krausenwest-schlaegernord" to_x="606.075" to_y="-1025.89" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink10@KrausenWest" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="KrausenWest@schlaegernord-krausenwest" from_x="600.19" from_y="-1022.9" from_speed="13.89" from_lane="2" toNode="KrausenWest@buergermeisterfinkout" to_x="596.95" to_y="-1018.15" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink11@KrausenWest" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="KrausenWest@schlaegernord-krausenwest" from_x="600.19" from_y="-1022.9" from_speed="13.89" from_lane="2" toNode="KrausenWest@krausenwest-geibel" to_x="605.115" to_y="-1013.115" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink13@KrausenWest" numLanes="1" fromLaneIndex="1" toLaneIndex="0" fromNode="KrausenWest@schlaegernord-krausenwest" from_x="600.19" from_y="-1022.9" from_speed="13.89" from_lane="2" toNode="KrausenWest@krausenwest-schlaegermitte" to_x="613.92" to_y="-1020.93" to_speed="8.33" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGGgrrrGGGg"/>
+        <phase id="2" duration="4" state="rrryyygrrryyyg"/>
+        <phase id="3" duration="6" state="rrrrrrGrrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrrryrrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrrGGgrrrr"/>
+        <phase id="6" duration="4" state="yygrrrryygrrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrrGrrrr"/>
+        <phase id="8" duration="4" state="rryrrrrrryrrrr"/>
+        <request index="0" foes="00001000110000"/>
+        <request index="1" foes="11111001110000"/>
+        <request index="2" foes="11100111110000"/>
+        <request index="3" foes="10000100000000"/>
+        <request index="4" foes="10001100000111"/>
+        <request index="5" foes="10001100000111"/>
+        <request index="6" foes="01111100000110"/>
+        <request index="7" foes="01100000000100"/>
+        <request index="8" foes="11100001111100"/>
+        <request index="9" foes="11100001110011"/>
+        <request index="10" foes="00000001000010"/>
+        <request index="11" foes="00001111000110"/>
+        <request index="12" foes="00001111000110"/>
+        <request index="13" foes="00001100111110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="Lindemannallee" type="Other_Junction" x="2045.71" y="-692.43" intNode="[Lindemannallee@lindemannalleein 2041.87 -699.73 13.89 1, Lindemannallee@lindemannalleeout.200 2046.48 -690.97 13.89 1]"/>
+    <!--Junction-->
+    <junction id="Luther" type="Junction" x="997.63" y="-1618.9" intNode="[Luther@luther-krausenost 998.38 -1613.32 13.89 1, Luther@krausenost-luther 1001.38 -1614.7 13.89 1, Luther@lutherin.5 1007.82 -1623.26 8.33 1, Luther@lutherout 1008.65 -1620.07 8.33 1, Luther@luther-marien 1003.34 -1626.44 13.89 1, Luther@schlaegerost-luther 994.02 -1615.3 8.33 1, Luther@marien-luther 994.27 -1622.47 13.89 1, Luther@luther-schlaegerost 992.57 -1618.27 8.33 1]">
+        <intconnction id="InternalLink0@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@lutherin.5" from_x="1007.82" from_y="-1623.26" from_speed="8.33" from_lane="1" toNode="Luther@luther-marien" to_x="1003.34" to_y="-1626.44" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@lutherin.5" from_x="1007.82" from_y="-1623.26" from_speed="8.33" from_lane="1" toNode="Luther@luther-schlaegerost" to_x="992.57" to_y="-1618.27" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@lutherin.5" from_x="1007.82" from_y="-1623.26" from_speed="8.33" from_lane="1" toNode="Luther@luther-krausenost" to_x="998.38" to_y="-1613.32" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@krausenost-luther" from_x="1001.38" from_y="-1614.7" from_speed="13.89" from_lane="1" toNode="Luther@lutherout" to_x="1008.65" to_y="-1620.07" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@krausenost-luther" from_x="1001.38" from_y="-1614.7" from_speed="13.89" from_lane="1" toNode="Luther@luther-marien" to_x="1003.34" to_y="-1626.44" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@krausenost-luther" from_x="1001.38" from_y="-1614.7" from_speed="13.89" from_lane="1" toNode="Luther@luther-schlaegerost" to_x="992.57" to_y="-1618.27" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@schlaegerost-luther" from_x="994.02" from_y="-1615.3" from_speed="8.33" from_lane="1" toNode="Luther@luther-krausenost" to_x="998.38" to_y="-1613.32" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@schlaegerost-luther" from_x="994.02" from_y="-1615.3" from_speed="8.33" from_lane="1" toNode="Luther@lutherout" to_x="1008.65" to_y="-1620.07" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@schlaegerost-luther" from_x="994.02" from_y="-1615.3" from_speed="8.33" from_lane="1" toNode="Luther@luther-marien" to_x="1003.34" to_y="-1626.44" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@marien-luther" from_x="994.27" from_y="-1622.47" from_speed="13.89" from_lane="1" toNode="Luther@luther-schlaegerost" to_x="992.57" to_y="-1618.27" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@marien-luther" from_x="994.27" from_y="-1622.47" from_speed="13.89" from_lane="1" toNode="Luther@luther-krausenost" to_x="998.38" to_y="-1613.32" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@Luther" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Luther@marien-luther" from_x="994.27" from_y="-1622.47" from_speed="13.89" from_lane="1" toNode="Luther@lutherout" to_x="1008.65" to_y="-1620.07" to_speed="8.33" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="2" duration="4" state="rrryygrrryyg"/>
+        <phase id="3" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrryrrrrry"/>
+        <phase id="5" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="6" duration="4" state="yygrrryygrrr"/>
+        <phase id="7" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="8" duration="4" state="rryrrrrryrrr"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="LutherOst" type="Other_Junction" x="1125.15" y="-1652.19" intNode="[LutherOst@lutherin 1124.73 -1653.79 8.33 1, LutherOst@lutherout.130 1125.57 -1650.59 8.33 1]"/>
+    <!--Junction-->
+    <junction id="Mainzer" type="Other_Junction" x="2038.15" y="-403.96" intNode="[Mainzer@mainzerin 2041.8 -407.3 13.89 1, Mainzer@mainzerout.250 2036.93 -402.85 13.89 1]"/>
+    <!--Junction-->
+    <junction id="Marien" type="Junction" x="869.66" y="-1911.55" intNode="[Marien@marienin.170 882.7049999999999 -1919.64 13.89 4, Marien@marien-luther 872.73 -1900.42 13.89 1, Marien@berlineralleeout 867.5 -1925.04 13.89 2, Marien@marien-aeginord 855.36 -1912.425 13.89 2, Marien@aeginord-marien.600 856.7633333333333 -1904.3 13.89 3, Marien@luther-marien.280 878.7733333333332 -1903.0600000000002 13.89 3, Marien@marienout 883.7950000000001 -1909.8000000000002 13.89 2, Marien@berlineralleein.160 858.9500000000002 -1921.3666666666668 13.89 3]">
+        <intconnction id="InternalLink0@Marien" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Marien@marienin.170" from_x="882.7049999999999" from_y="-1919.64" from_speed="13.89" from_lane="4" toNode="Marien@berlineralleeout" to_x="867.5" to_y="-1925.04" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink1@Marien" numLanes="2" fromLaneIndex="1,2" toLaneIndex="0,1" fromNode="Marien@marienin.170" from_x="882.7049999999999" from_y="-1919.64" from_speed="13.89" from_lane="4" toNode="Marien@marien-aeginord" to_x="855.36" to_y="-1912.425" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink3@Marien" numLanes="1" fromLaneIndex="3" toLaneIndex="0" fromNode="Marien@marienin.170" from_x="882.7049999999999" from_y="-1919.64" from_speed="13.89" from_lane="4" toNode="Marien@marien-luther" to_x="872.73" to_y="-1900.42" to_speed="13.89" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink4@Marien" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Marien@luther-marien.280" from_x="878.7733333333332" from_y="-1903.0600000000002" from_speed="13.89" from_lane="3" toNode="Marien@marienout" to_x="883.7950000000001" to_y="-1909.8000000000002" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink5@Marien" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="Marien@luther-marien.280" from_x="878.7733333333332" from_y="-1903.0600000000002" from_speed="13.89" from_lane="3" toNode="Marien@berlineralleeout" to_x="867.5" to_y="-1925.04" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink7@Marien" numLanes="1" fromLaneIndex="2" toLaneIndex="1" fromNode="Marien@luther-marien.280" from_x="878.7733333333332" from_y="-1903.0600000000002" from_speed="13.89" from_lane="3" toNode="Marien@marien-aeginord" to_x="855.36" to_y="-1912.425" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink8@Marien" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Marien@aeginord-marien.600" from_x="856.7633333333333" from_y="-1904.3" from_speed="13.89" from_lane="3" toNode="Marien@marien-luther" to_x="872.73" to_y="-1900.42" to_speed="13.89" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink9@Marien" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="Marien@aeginord-marien.600" from_x="856.7633333333333" from_y="-1904.3" from_speed="13.89" from_lane="3" toNode="Marien@marienout" to_x="883.7950000000001" to_y="-1909.8000000000002" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink11@Marien" numLanes="1" fromLaneIndex="2" toLaneIndex="1" fromNode="Marien@aeginord-marien.600" from_x="856.7633333333333" from_y="-1904.3" from_speed="13.89" from_lane="3" toNode="Marien@berlineralleeout" to_x="867.5" to_y="-1925.04" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink12@Marien" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Marien@berlineralleein.160" from_x="858.9500000000002" from_y="-1921.3666666666668" from_speed="13.89" from_lane="3" toNode="Marien@marien-aeginord" to_x="855.36" to_y="-1912.425" to_speed="13.89" to_lane="2" dir="r"/>
+        <intconnction id="InternalLink13@Marien" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="Marien@berlineralleein.160" from_x="858.9500000000002" from_y="-1921.3666666666668" from_speed="13.89" from_lane="3" toNode="Marien@marien-luther" to_x="872.73" to_y="-1900.42" to_speed="13.89" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink14@Marien" numLanes="2" fromLaneIndex="1,2" toLaneIndex="0,1" fromNode="Marien@berlineralleein.160" from_x="858.9500000000002" from_y="-1921.3666666666668" from_speed="13.89" from_lane="3" toNode="Marien@marienout" to_x="883.7950000000001" to_y="-1909.8000000000002" to_speed="13.89" to_lane="2" dir="l"/>
+        <phase id="1" duration="31" state="GGGgrrrrGGGgrrrr"/>
+        <phase id="2" duration="4" state="yyygrrrryyygrrrr"/>
+        <phase id="3" duration="6" state="rrrGrrrrrrrGrrrr"/>
+        <phase id="4" duration="4" state="rrryrrrrrrryrrrr"/>
+        <phase id="5" duration="31" state="rrrrGGGgrrrrGGgg"/>
+        <phase id="6" duration="4" state="rrrryyygrrrryygg"/>
+        <phase id="7" duration="6" state="rrrrrrrGrrrrrrGG"/>
+        <phase id="8" duration="4" state="rrrrrrryrrrrrryy"/>
+        <request index="0" foes="0000100001100000"/>
+        <request index="1" foes="1111100011100000"/>
+        <request index="2" foes="1111100011100000"/>
+        <request index="3" foes="1110011111100000"/>
+        <request index="4" foes="1100011000000000"/>
+        <request index="5" foes="1100111000001111"/>
+        <request index="6" foes="1100111000001111"/>
+        <request index="7" foes="0011111000001110"/>
+        <request index="8" foes="0010000000001000"/>
+        <request index="9" foes="1110000011111000"/>
+        <request index="10" foes="1110000011111000"/>
+        <request index="11" foes="1110000011100111"/>
+        <request index="12" foes="0000000010000110"/>
+        <request index="13" foes="0000111110001110"/>
+        <request index="14" foes="0000111001111110"/>
+        <request index="15" foes="0000111001111110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="MarienOst" type="Other_Junction" x="1094.11" y="-1936.41" intNode="[MarienOst@marienin 1093.02 -1946.25 13.89 2, MarienOst@marienout.210 1094.47 -1933.13 13.89 2]"/>
+    <!--Junction-->
+    <junction id="SchiffgrabenIn" type="Other_Junction" x="237.09" y="-1931.2" intNode="[SchiffgrabenIn@schiffgrabenin 230.585 -1932.3049999999998 13.89 2]"/>
+    <!--Junction-->
+    <junction id="SchiffgrabenOut" type="Other_Junction" x="268.67" y="-1953.41" intNode="[SchiffgrabenOut@schiffgrabenout.160 271.78499999999997 -1952.3249999999998 13.89 2]"/>
+    <!--Junction-->
+    <junction id="SchlaegerMitte" type="Junction" x="830.34" y="-1128.19" intNode="[SchlaegerMitte@krausenwest-schlaegermitte 824.72 -1123.62 8.33 1, SchlaegerMitte@geibelmitte-schlaegermitte 835.52 -1124.96 8.33 1, SchlaegerMitte@schlaegermitte-krausenwest 823.27 -1126.58 8.33 1, SchlaegerMitte@schlaegermitte-geibelmitte 833.09 -1122.73 8.33 1, SchlaegerMitte@schlaegermitte-schlaegerost 825.47 -1133.56 8.33 1, SchlaegerMitte@schlaegerost-schlaegermitte 823.6 -1130.85 8.33 1, SchlaegerMitte@schlaegermitte-krausenost 836.36 -1129.23 8.33 1, SchlaegerMitte@krausenost-schlaegermitte 834.94 -1132.21 8.33 1]">
+        <intconnction id="InternalLink0@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenost-schlaegermitte" from_x="834.94" from_y="-1132.21" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-schlaegerost" to_x="825.47" to_y="-1133.56" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink1@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenost-schlaegermitte" from_x="834.94" from_y="-1132.21" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenwest" to_x="823.27" to_y="-1126.58" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink2@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenost-schlaegermitte" from_x="834.94" from_y="-1132.21" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-geibelmitte" to_x="833.09" to_y="-1122.73" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink3@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@geibelmitte-schlaegermitte" from_x="835.52" from_y="-1124.96" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenost" to_x="836.36" to_y="-1129.23" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink4@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@geibelmitte-schlaegermitte" from_x="835.52" from_y="-1124.96" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-schlaegerost" to_x="825.47" to_y="-1133.56" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink5@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@geibelmitte-schlaegermitte" from_x="835.52" from_y="-1124.96" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenwest" to_x="823.27" to_y="-1126.58" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink6@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenwest-schlaegermitte" from_x="824.72" from_y="-1123.62" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-geibelmitte" to_x="833.09" to_y="-1122.73" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink7@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenwest-schlaegermitte" from_x="824.72" from_y="-1123.62" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenost" to_x="836.36" to_y="-1129.23" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink8@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@krausenwest-schlaegermitte" from_x="824.72" from_y="-1123.62" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-schlaegerost" to_x="825.47" to_y="-1133.56" to_speed="8.33" to_lane="1" dir="l"/>
+        <intconnction id="InternalLink9@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@schlaegerost-schlaegermitte" from_x="823.6" from_y="-1130.85" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenwest" to_x="823.27" to_y="-1126.58" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink10@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@schlaegerost-schlaegermitte" from_x="823.6" from_y="-1130.85" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-geibelmitte" to_x="833.09" to_y="-1122.73" to_speed="8.33" to_lane="1" dir="s"/>
+        <intconnction id="InternalLink11@SchlaegerMitte" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerMitte@schlaegerost-schlaegermitte" from_x="823.6" from_y="-1130.85" from_speed="8.33" from_lane="1" toNode="SchlaegerMitte@schlaegermitte-krausenost" to_x="836.36" to_y="-1129.23" to_speed="8.33" to_lane="1" dir="l"/>
+        <phase id="1" duration="31" state="GGgrrrGGgrrr"/>
+        <phase id="2" duration="2" state="yygrrryygrrr"/>
+        <phase id="3" duration="6" state="rrGrrrrrGrrr"/>
+        <phase id="4" duration="2" state="rryrrrrryrrr"/>
+        <phase id="5" duration="31" state="rrrGGgrrrGGg"/>
+        <phase id="6" duration="2" state="rrryygrrryyg"/>
+        <phase id="7" duration="6" state="rrrrrGrrrrrG"/>
+        <phase id="8" duration="2" state="rrrrryrrrrry"/>
+        <request index="0" foes="000100010000"/>
+        <request index="1" foes="111100110000"/>
+        <request index="2" foes="110011110000"/>
+        <request index="3" foes="100010000000"/>
+        <request index="4" foes="100110000111"/>
+        <request index="5" foes="011110000110"/>
+        <request index="6" foes="010000000100"/>
+        <request index="7" foes="110000111100"/>
+        <request index="8" foes="110000110011"/>
+        <request index="9" foes="000000100010"/>
+        <request index="10" foes="000111100110"/>
+        <request index="11" foes="000110011110"/>
+    </junction>
+    <!--Junction-->
+    <junction id="SchlaegerNord" type="Junction" x="419.48" y="-1385.27" intNode="[SchlaegerNord@schlaegernord-aegiesued 430.08666666666664 -1384.07 13.89 3, SchlaegerNord@schlaegernord-krausenwest 421.88 -1373.28 13.89 2, SchlaegerNord@aegisued-schlaegernord 419.0 -1376.8966666666668 13.89 3, SchlaegerNord@schlaegernord-schlaegerost 432.45 -1380.08 8.33 1, SchlaegerNord@schlaegerost-schlaegernord.30 433.73 -1384.8600000000001 8.33 2, SchlaegerNord@krausenwest-schlaegernord 427.76 -1376.275 13.89 2]">
+        <intconnction id="InternalLink0@SchlaegerNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerNord@schlaegerost-schlaegernord.30" from_x="433.73" from_y="-1384.8600000000001" from_speed="8.33" from_lane="2" toNode="SchlaegerNord@schlaegernord-aegiesued" to_x="430.08666666666664" to_y="-1384.07" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink1@SchlaegerNord" numLanes="1" fromLaneIndex="1" toLaneIndex="1" fromNode="SchlaegerNord@schlaegerost-schlaegernord.30" from_x="433.73" from_y="-1384.8600000000001" from_speed="8.33" from_lane="2" toNode="SchlaegerNord@schlaegernord-krausenwest" to_x="421.88" to_y="-1373.28" to_speed="13.89" to_lane="2" dir="l"/>
+        <intconnction id="InternalLink2@SchlaegerNord" numLanes="1" fromLaneIndex="0" toLaneIndex="0" fromNode="SchlaegerNord@krausenwest-schlaegernord" from_x="427.76" from_y="-1376.275" from_speed="13.89" from_lane="2" toNode="SchlaegerNord@schlaegernord-schlaegerost" to_x="432.45" to_y="-1380.08" to_speed="8.33" to_lane="1" dir="r"/>
+        <intconnction id="InternalLink3@SchlaegerNord" numLanes="2" fromLaneIndex="0,1" toLaneIndex="1,2" fromNode="SchlaegerNord@krausenwest-schlaegernord" from_x="427.76" from_y="-1376.275" from_speed="13.89" from_lane="2" toNode="SchlaegerNord@schlaegernord-aegiesued" to_x="430.08666666666664" to_y="-1384.07" to_speed="13.89" to_lane="3" dir="s"/>
+        <intconnction id="InternalLink5@SchlaegerNord" numLanes="2" fromLaneIndex="0,1" toLaneIndex="0,1" fromNode="SchlaegerNord@aegisued-schlaegernord" from_x="419.0" from_y="-1376.8966666666668" from_speed="13.89" from_lane="3" toNode="SchlaegerNord@schlaegernord-krausenwest" to_x="421.88" to_y="-1373.28" to_speed="13.89" to_lane="2" dir="s"/>
+        <intconnction id="InternalLink7@SchlaegerNord" numLanes="1" fromLaneIndex="2" toLaneIndex="0" fromNode="SchlaegerNord@aegisued-schlaegernord" from_x="419.0" from_y="-1376.8966666666668" from_speed="13.89" from_lane="3" toNode="SchlaegerNord@schlaegernord-schlaegerost" to_x="432.45" to_y="-1380.08" to_speed="8.33" to_lane="1" dir="s"/>
+        <phase id="1" duration="31" state="GrGGGGGg"/>
+        <phase id="2" duration="4" state="yryyyyyg"/>
+        <phase id="3" duration="6" state="rrrrrrrG"/>
+        <phase id="4" duration="4" state="rrrrrrry"/>
+        <phase id="5" duration="31" state="GGGrrrrr"/>
+        <phase id="6" duration="4" state="yyyrrrrr"/>
+        <request index="0" foes="00000000"/>
+        <request index="1" foes="11111000"/>
+        <request index="2" foes="10000000"/>
+        <request index="3" foes="10000010"/>
+        <request index="4" foes="10000010"/>
+        <request index="5" foes="00000010"/>
+        <request index="6" foes="00000010"/>
+        <request index="7" foes="00011110"/>
+    </junction>
+    <!--Junction-->
+    
+    <!--Junction-->
+    <junction id="Stresemannallee" type="Other_Junction" x="1606.08" y="-345.32" intNode="[Stresemannallee@stresemannalleein 1607.58 -346.0 13.89 1, Stresemannallee@stresemannalleeout.100 1604.58 -344.64 13.89 1]"/>
+    <!--Junction-->
+    <junction id="Stueves" type="Other_Junction" x="1228.36" y="-738.53" intNode="[Stueves@stuevesin 1231.45 -742.39 8.33 1, Stueves@stuevesout.200 1227.33 -737.24 8.33 1]"/>
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--Junction-->
+    
+    <!--External Link-->
+    <extlink id="aeginord-aegisued" fromJunction="AegiNord" toJunction="AegiSued" numLanes="2" speed="13.89" length="63.57">
+        <extconnction fromNode="AegiNord@aeginord-aegisued" from_x="210.32" from_y="-1787.835" toNode="AegiSued@aeginord-aegisued" to_x="204.345" to_y="-1724.535" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="aeginord-aegiwest" fromJunction="AegiNord" toJunction="AegiWest" numLanes="3" speed="13.89" length="78.13">
+        <extconnction fromNode="AegiNord@aeginord-aegiwest" from_x="202.5" from_y="-1791.6233333333332" toNode="AegiWest@aeginord-aegiwest" to_x="152.36" to_y="-1731.7133333333331" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="aeginord-marien+aeginord-marien.600" fromJunction="AegiNord" toJunction="Marien" numLanes="3" speed="13.89" length="638.5912477418495">
+        <extconnction fromNode="AegiNord@aeginord-marien" from_x="228.19" from_y="-1794.045" toNode="Marien@aeginord-marien.600" to_x="856.7633333333333" to_y="-1904.3" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="aegisued-aeginord" fromJunction="AegiSued" toJunction="AegiNord" numLanes="3" speed="13.89" length="63.57">
+        <extconnction fromNode="AegiSued@aegisued-aeginord" from_x="212.55999999999997" from_y="-1723.76" toNode="AegiNord@aegisued-aeginord" to_x="218.53333333333333" to_y="-1787.0600000000002" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="aegisued-aegiwest" fromJunction="AegiSued" toJunction="AegiWest" numLanes="2" speed="13.89" length="43.07">
+        <extconnction fromNode="AegiSued@aegisued-aegiwest" from_x="198.92000000000002" from_y="-1718.38" toNode="AegiWest@aegisued-aegiwest" to_x="156.215" to_y="-1724.0" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="aegisued-schlaegernord" fromJunction="AegiSued" toJunction="SchlaegerNord" numLanes="3" speed="13.89" length="386.97">
+        <extconnction fromNode="AegiSued@aegisued-schlaegernord" from_x="208.72" from_y="-1701.75" toNode="SchlaegerNord@aegisued-schlaegernord" to_x="419.0" to_y="-1376.8966666666668" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="altenbekenermitte-altenbekenerwest" fromJunction="AltenbekenerMitte" toJunction="AltenbekenerWest" numLanes="2" speed="13.89" length="221.45">
+        <extconnction fromNode="AltenbekenerMitte@altenbekenermitte-altenbekenerwest" from_x="1187.825" from_y="-351.145" toNode="AltenbekenerWest@altenbekenermitte-altenbekenerwest" to_x="973.55" to_y="-295.245" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="altenbekenerost-altenbekenermitte+altenbekenermitte-altenbekenerost" fromJunction="AltenbekenerOst" toJunction="AltenbekenerOst" numLanes="2" speed="13.89" length="728.7578197449502">
+        <extconnction fromNode="AltenbekenerOst@altenbekenerost-altenbekenermitte" from_x="1546.52" from_y="-447.54499999999996" toNode="AltenbekenerOst@altenbekenermitte-altenbekenerost" to_x="1548.2350000000001" to_y="-441.16999999999996" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="altenbekenerost-jordannord+altenbekenerost-jordannord.550" fromJunction="AltenbekenerOst" toJunction="JordanNord" numLanes="2" speed="13.89" length="555.2300073099336">
+        <extconnction fromNode="AltenbekenerOst@altenbekenerost-jordannord" from_x="1559.81" from_y="-458.85" toNode="JordanNord@altenbekenerost-jordannord.550" to_x="1317.45" to_y="-957.9200000000001" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="altenbekenerost-jordansued" fromJunction="AltenbekenerOst" toJunction="JordanSued" numLanes="2" speed="13.89" length="316.38">
+        <extconnction fromNode="AltenbekenerOst@altenbekenerost-jordansued" from_x="1568.42" from_y="-448.27" toNode="JordanSued@altenbekenerost-jordansued" to_x="1852.4650000000001" to_y="-587.61" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="altenbekenerwest-altenbekenermitte" fromJunction="AltenbekenerWest" toJunction="AltenbekenerMitte" numLanes="2" speed="13.89" length="221.45">
+        <extconnction fromNode="AltenbekenerWest@altenbekenerwest-altenbekenermitte" from_x="975.2149999999999" from_y="-288.855" toNode="AltenbekenerMitte@altenbekenerwest-altenbekenermitte" to_x="1189.4850000000001" to_y="-344.755" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="altenbekenerwest-geibel" fromJunction="AltenbekenerWest" toJunction="Geibel" numLanes="2" speed="13.89" length="458.91">
+        <extconnction fromNode="AltenbekenerWest@altenbekenerwest-geibel" from_x="961.8050000000001" from_y="-296.565" toNode="Geibel@altenbekenerwest-geibel" to_x="762.705" to_y="-710.0350000000001" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="altenbekenerwestin+altenbekenerwestin.5+altenbekenerwestin.200" fromJunction="AltenbekenerWestinout" toJunction="AltenbekenerWest" numLanes="2" speed="13.89" length="255.95027045714224">
+        <extconnction fromNode="AltenbekenerWestinout@altenbekenerwestin" from_x="702.08" from_y="-223.46" toNode="AltenbekenerWest@altenbekenerwestin.200" to_x="950.63" to_y="-282.78999999999996" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="altenbekenerwestout+altenbekenerwestout.260" fromJunction="AltenbekenerWest" toJunction="AltenbekenerWestinout" numLanes="1" speed="13.89" length="255.51999999999998">
+        <extconnction fromNode="AltenbekenerWest@altenbekenerwestout" from_x="949.51" from_y="-287.61" toNode="AltenbekenerWestinout@altenbekenerwestout.260" to_x="700.59" to_y="-229.89" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="andertiefenriedein+andertiefenriedein.5+andertiefenriedein.160" fromJunction="AnDerTiefenriede" toJunction="AltenbekenerMitte" numLanes="2" speed="8.33" length="176.72431379987296">
+        <extconnction fromNode="AnDerTiefenriede@andertiefenriedein" from_x="1179.5" from_y="-164.42" toNode="AltenbekenerMitte@andertiefenriedein.160" to_x="1198.095" to_y="-339.75" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="andertiefenriedenordin+andertiefenriedenordin.5+andertiefenriedenordin.200" fromJunction="AnDTiefenriedeNord" toJunction="AltenbekenerMitte" numLanes="2" speed="8.33" length="248.99994883002665">
+        <extconnction fromNode="AnDTiefenriedeNord@andertiefenriedenordin" from_x="1207.38" from_y="-607.73" toNode="AltenbekenerMitte@andertiefenriedenordin.200" to_x="1193.25" to_y="-359.555" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="andertiefenriedenordout+andertiefenriedenordout.250" fromJunction="AltenbekenerMitte" toJunction="AnDTiefenriedeNord" numLanes="1" speed="8.33" length="248.58">
+        <extconnction fromNode="AltenbekenerMitte@andertiefenriedenordout" from_x="1198.19" from_y="-359.24" toNode="AnDTiefenriedeNord@andertiefenriedenordout.250" to_x="1213.97" to_y="-607.32" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="andertiefenriedeout+andertiefenriedeout.180" fromJunction="AltenbekenerMitte" toJunction="AnDerTiefenriede" numLanes="1" speed="8.33" length="176.3">
+        <extconnction fromNode="AltenbekenerMitte@andertiefenriedeout" from_x="1193.18" from_y="-340.32" toNode="AnDerTiefenriede@andertiefenriedeout.180" to_x="1172.94" to_y="-165.18" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="berlineralleein+berlineralleein.5+berlineralleein.160" fromJunction="BerlineralleeIn" toJunction="Marien" numLanes="3" speed="13.89" length="192.1197274907673">
+        <extconnction fromNode="BerlineralleeIn@berlineralleein" from_x="768.79" from_y="-2090.545" toNode="Marien@berlineralleein.160" to_x="858.9500000000002" to_y="-1921.3666666666668" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="berlineralleeout+berlineralleeout.190" fromJunction="Marien" toJunction="BerlineralleeOut" numLanes="2" speed="13.89" length="185.93">
+        <extconnction fromNode="Marien@berlineralleeout" from_x="867.5" from_y="-1925.04" toNode="BerlineralleeOut@berlineralleeout.190" to_x="794.605" to_y="-2096.075" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="buergermeisterfinkin+buergermeisterfinkin.5" fromJunction="BuergermeisterFink" toJunction="KrausenWest" numLanes="1" speed="8.33" length="169.43">
+        <extconnction fromNode="BuergermeisterFink@buergermeisterfinkin" from_x="434.29" from_y="-970.6" toNode="KrausenWest@buergermeisterfinkin.5" to_x="597.81" to_y="-1014.96" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="buergermeisterfinkout+buergermeisterfinkout.170" fromJunction="KrausenWest" toJunction="BuergermeisterFink" numLanes="1" speed="8.33" length="169.43">
+        <extconnction fromNode="KrausenWest@buergermeisterfinkout" from_x="596.95" from_y="-1018.15" toNode="BuergermeisterFink@buergermeisterfinkout.170" to_x="433.43" to_y="-973.78" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="friedrichswallin+friedrichswallin.5+friedrichswallin.150" fromJunction="FriedrichswallIn" toJunction="AegiSued" numLanes="4" speed="13.89" length="198.02600715118922">
+        <extconnction fromNode="FriedrichswallIn@friedrichswallin" from_x="2.02" from_y="-1676.95" toNode="AegiSued@friedrichswallin.150" to_x="197.46999999999997" to_y="-1706.0749999999998" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="friedrichswallout+friedrichswallout.140" fromJunction="AegiWest" toJunction="FriedrichswallOut" numLanes="3" speed="13.89" length="145.18">
+        <extconnction fromNode="AegiWest@friedrichswallout" from_x="144.23" from_y="-1725.9166666666667" toNode="FriedrichswallOut@friedrichswallout.140" to_x="-0.41999999999999993" to_y="-1713.58" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="geibel-altenbekenerwest+geibel-altenbekenerwest.350" fromJunction="Geibel" toJunction="AltenbekenerWest" numLanes="3" speed="13.89" length="459.3227222758761">
+        <extconnction fromNode="Geibel@geibel-altenbekenerwest" from_x="753.785" from_y="-705.735" toNode="AltenbekenerWest@geibel-altenbekenerwest.350" to_x="954.3733333333333" to_y="-292.99" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="geibel-geibelmitte+geibelmitte-geibel+geibelmitte-geibel.330" fromJunction="Geibel" toJunction="Geibel" numLanes="2" speed="8.33" length="686.8210256679562">
+        <extconnction fromNode="Geibel@geibel-geibelmitte" from_x="764.25" from_y="-717.8" toNode="Geibel@geibelmitte-geibel.330" to_x="762.125" to_y="-722.27" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="geibel-krausenwest" fromJunction="Geibel" toJunction="KrausenWest" numLanes="2" speed="13.89" length="325.55">
+        <extconnction fromNode="Geibel@geibel-krausenwest" from_x="755.6800000000001" from_y="-724.405" toNode="KrausenWest@geibel-krausenwest" to_x="611.03" to_y="-1016.05" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="geibelin+geibelin.5+geibelin.190" fromJunction="GeibelWest" toJunction="Geibel" numLanes="2" speed="8.33" length="199.44873518954162">
+        <extconnction fromNode="GeibelWest@geibelin" from_x="568.64" from_y="-620.57" toNode="Geibel@geibelin.190" to_x="747.45" to_y="-707.96" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="geibelmitte-jordannord+geibelmitte-jordannord.230" fromJunction="GeibelMitte" toJunction="JordanNord" numLanes="2" speed="8.33" length="236.7401348369999">
+        <extconnction fromNode="GeibelMitte@geibelmitte-jordannord" from_x="1083.32" from_y="-865.66" toNode="JordanNord@geibelmitte-jordannord.230" to_x="1294.37" to_y="-971.985" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="geibelmitte-schlaegermitte" fromJunction="GeibelMitte" toJunction="SchlaegerMitte" numLanes="1" speed="8.33" length="341.21">
+        <extconnction fromNode="GeibelMitte@geibelmitte-schlaegermitte" from_x="1065.49" from_y="-872.88" toNode="SchlaegerMitte@geibelmitte-schlaegermitte" to_x="835.52" to_y="-1124.96" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="geibelout+geibelout.200" fromJunction="Geibel" toJunction="GeibelWest" numLanes="1" speed="8.33" length="199.01999999999998">
+        <extconnction fromNode="Geibel@geibelout" from_x="745.31" from_y="-712.43" toNode="GeibelWest@geibelout.200" to_x="565.79" to_y="-626.53" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="georgin+georgin.5+georgin.100" fromJunction="Georg" toJunction="AegiNord" numLanes="2" speed="13.89" length="137.16381366315395">
+        <extconnction fromNode="Georg@georgin" from_x="126.89" from_y="-1928.25" toNode="AegiNord@georgin.100" to_x="201.22500000000002" to_y="-1813.4699999999998" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="georgout+georgout.150" fromJunction="AegiNord" toJunction="Georg" numLanes="1" speed="13.89" length="136.73">
+        <extconnction fromNode="AegiNord@georgout" from_x="205.41" from_y="-1816.11" toNode="Georg@georgout.150" to_x="132.48" to_y="-1931.77" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="hildesheimerin+hildesheimerin.5+hildesheimerin.200" fromJunction="HildesheimerIn" toJunction="AltenbekenerWest" numLanes="3" speed="13.89" length="282.88412681488944">
+        <extconnction fromNode="HildesheimerIn@hildesheimerin" from_x="1097.3" from_y="-29.55" toNode="AltenbekenerWest@hildesheimerin.200" to_x="970.7266666666666" to_y="-282.0733333333333" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="hildesheimerout+hildesheimerout.310" fromJunction="AltenbekenerWest" toJunction="HildesheimerOut" numLanes="2" speed="13.89" length="303.83">
+        <extconnction fromNode="AltenbekenerWest@hildesheimerout" from_x="962.595" from_y="-278.635" toNode="HildesheimerOut@hildesheimerout.310" to_x="1080.73" to_y="1.28" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="jordannord-altenbekenerost+jordannord-altenbekenerost.550" fromJunction="JordanNord" toJunction="AltenbekenerOst" numLanes="3" speed="13.89" length="556.2744484541765">
+        <extconnction fromNode="JordanNord@jordannord-altenbekenerost" from_x="1307.04" from_y="-952.91" toNode="AltenbekenerOst@jordannord-altenbekenerost.550" to_x="1550.89" to_y="-454.55" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="jordannord-geibelmitte" fromJunction="JordanNord" toJunction="GeibelMitte" numLanes="1" speed="8.33" length="236.31">
+        <extconnction fromNode="JordanNord@jordannord-geibelmitte" from_x="1292.17" from_y="-976.42" toNode="GeibelMitte@jordannord-geibelmitte" to_x="1080.39" to_y="-871.57" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="jordannord-jordansued+jordannord-jordansued.630" fromJunction="JordanNord" toJunction="JordanSued" numLanes="2" speed="8.33" length="639.9309538143625">
+        <extconnction fromNode="JordanNord@jordannord-jordansued" from_x="1321.87" from_y="-961.15" toNode="JordanSued@jordannord-jordansued.630" to_x="1850.075" to_y="-600.64" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="jordannord-krausenost+jordannord-krausenost.300" fromJunction="JordanNord" toJunction="KrausenOst" numLanes="2" speed="13.89" length="327.611585889613">
+        <extconnction fromNode="JordanNord@jordannord-krausenost" from_x="1305.45" from_y="-986.48" toNode="KrausenOst@jordannord-krausenost.300" to_x="1158.145" to_y="-1278.635" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="jordansued-altenbekenerost" fromJunction="JordanSued" toJunction="AltenbekenerOst" numLanes="2" speed="13.89" length="316.38">
+        <extconnction fromNode="JordanSued@jordansued-altenbekenerost" from_x="1849.5549999999998" from_y="-593.535" toNode="AltenbekenerOst@jordansued-altenbekenerost" to_x="1565.5149999999999" to_y="-454.20000000000005" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="jordansued-jordannord+jordansued-jordannord.630" fromJunction="JordanSued" toJunction="JordanNord" numLanes="2" speed="8.33" length="639.9309538143623">
+        <extconnction fromNode="JordanSued@jordansued-jordannord" from_x="1854.74" from_y="-607.44" toNode="JordanNord@jordansued-jordannord.630" to_x="1326.5349999999999" to_y="-967.955" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="krausenin+krausenin.5" fromJunction="Krausen" toJunction="KrausenOst" numLanes="1" speed="8.33" length="102.5">
+        <extconnction fromNode="Krausen@krausenin" from_x="1254.72" from_y="-1325.49" toNode="KrausenOst@krausenin.5" to_x="1159.91" to_y="-1286.53" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="krausenost-jordannord+krausenost-jordannord.300" fromJunction="KrausenOst" toJunction="JordanNord" numLanes="2" speed="13.89" length="327.611585889613">
+        <extconnction fromNode="KrausenOst@krausenost-jordannord" from_x="1150.76" from_y="-1274.96" toNode="JordanNord@krausenost-jordannord.300" to_x="1298.065" to_y="-982.8050000000001" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="krausenost-luther" fromJunction="KrausenOst" toJunction="Luther" numLanes="1" speed="13.89" length="360.99">
+        <extconnction fromNode="KrausenOst@krausenost-luther" from_x="1152.39" from_y="-1286.82" toNode="Luther@krausenost-luther" to_x="1001.38" to_y="-1614.7" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="krausenost-schlaegermitte" fromJunction="KrausenOst" toJunction="SchlaegerMitte" numLanes="1" speed="8.33" length="343.38">
+        <extconnction fromNode="KrausenOst@krausenost-schlaegermitte" from_x="1144.93" from_y="-1279.9" toNode="SchlaegerMitte@krausenost-schlaegermitte" to_x="834.94" to_y="-1132.21" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="krausenout+krausenout.100" fromJunction="KrausenOst" toJunction="Krausen" numLanes="1" speed="8.33" length="102.5">
+        <extconnction fromNode="KrausenOst@krausenout" from_x="1161.17" from_y="-1283.48" toNode="Krausen@krausenout.100" to_x="1255.98" to_y="-1322.43" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="krausenwest-geibel" fromJunction="KrausenWest" toJunction="Geibel" numLanes="2" speed="13.89" length="325.55">
+        <extconnction fromNode="KrausenWest@krausenwest-geibel" from_x="605.115" from_y="-1013.115" toNode="Geibel@krausenwest-geibel" to_x="749.77" to_y="-721.475" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="krausenwest-schlaegermitte" fromJunction="KrausenWest" toJunction="SchlaegerMitte" numLanes="1" speed="8.33" length="234.48">
+        <extconnction fromNode="KrausenWest@krausenwest-schlaegermitte" from_x="613.92" from_y="-1020.93" toNode="SchlaegerMitte@krausenwest-schlaegermitte" to_x="824.72" to_y="-1123.62" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="krausenwest-schlaegernord" fromJunction="KrausenWest" toJunction="SchlaegerNord" numLanes="2" speed="13.89" length="393.15">
+        <extconnction fromNode="KrausenWest@krausenwest-schlaegernord" from_x="606.075" from_y="-1025.89" toNode="SchlaegerNord@krausenwest-schlaegernord" to_x="427.76" to_y="-1376.275" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="lindemannalleein+lindemannalleein.5+lindemannalleein.150" fromJunction="Lindemannallee" toJunction="JordanSued" numLanes="3" speed="13.89" length="199.36282421791412">
+        <extconnction fromNode="Lindemannallee@lindemannalleein" from_x="2041.87" from_y="-699.73" toNode="JordanSued@lindemannalleein.150" to_x="1868.1966666666667" to_y="-604.7966666666666" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="lindemannalleeout+lindemannalleeout.200" fromJunction="JordanSued" toJunction="Lindemannallee" numLanes="1" speed="13.89" length="197.9">
+        <extconnction fromNode="JordanSued@lindemannalleeout" from_x="1871.27" from_y="-598.95" toNode="Lindemannallee@lindemannalleeout.200" to_x="2046.48" to_y="-690.97" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="luther-krausenost" fromJunction="Luther" toJunction="KrausenOst" numLanes="1" speed="13.89" length="360.99">
+        <extconnction fromNode="Luther@luther-krausenost" from_x="998.38" from_y="-1613.32" toNode="KrausenOst@luther-krausenost" to_x="1149.39" to_y="-1285.44" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="luther-marien+luther-marien.280" fromJunction="Luther" toJunction="Marien" numLanes="3" speed="13.89" length="304.81882396054283">
+        <extconnction fromNode="Luther@luther-marien" from_x="1003.34" from_y="-1626.44" toNode="Marien@luther-marien.280" to_x="878.7733333333332" to_y="-1903.0600000000002" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="luther-schlaegerost+schlaegerost-luther" fromJunction="Luther" toJunction="Luther" numLanes="1" speed="8.33" length="1126.5732121202104">
+        <extconnction fromNode="Luther@luther-schlaegerost" from_x="992.57" from_y="-1618.27" toNode="Luther@schlaegerost-luther" to_x="994.02" to_y="-1615.3" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="lutherin+lutherin.5" fromJunction="LutherOst" toJunction="Luther" numLanes="1" speed="8.33" length="120.84">
+        <extconnction fromNode="LutherOst@lutherin" from_x="1124.73" from_y="-1653.79" toNode="Luther@lutherin.5" to_x="1007.82" to_y="-1623.26" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="lutherout+lutherout.130" fromJunction="Luther" toJunction="LutherOst" numLanes="1" speed="8.33" length="120.83000000000001">
+        <extconnction fromNode="Luther@lutherout" from_x="1008.65" from_y="-1620.07" toNode="LutherOst@lutherout.130" to_x="1125.57" to_y="-1650.59" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="mainzerin+mainzerin.5+mainzerin.200" fromJunction="Mainzer" toJunction="JordanSued" numLanes="2" speed="13.89" length="253.4816370351047">
+        <extconnction fromNode="Mainzer@mainzerin" from_x="2041.8" from_y="-407.3" toNode="JordanSued@mainzerin.200" to_x="1869.83" to_y="-592.955" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="mainzerout+mainzerout.250" fromJunction="JordanSued" toJunction="Mainzer" numLanes="1" speed="13.89" length="253.06">
+        <extconnction fromNode="JordanSued@mainzerout" from_x="1866.18" from_y="-589.61" toNode="Mainzer@mainzerout.250" to_x="2036.93" to_y="-402.85" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="marien-aeginord" fromJunction="Marien" toJunction="AegiNord" numLanes="2" speed="13.89" length="638.17">
+        <extconnction fromNode="Marien@marien-aeginord" from_x="855.36" from_y="-1912.425" toNode="AegiNord@marien-aeginord" to_x="226.51" to_y="-1803.8000000000002" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="marien-luther" fromJunction="Marien" toJunction="Luther" numLanes="1" speed="13.89" length="303.36">
+        <extconnction fromNode="Marien@marien-luther" from_x="872.73" from_y="-1900.42" toNode="Luther@marien-luther" to_x="994.27" to_y="-1622.47" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="marienin+marienin.5+marienin.170" fromJunction="MarienOst" toJunction="Marien" numLanes="4" speed="13.89" length="213.43054929352874">
+        <extconnction fromNode="MarienOst@marienin" from_x="1093.02" from_y="-1946.25" toNode="Marien@marienin.170" to_x="882.7049999999999" to_y="-1919.64" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="marienout+marienout.210" fromJunction="Marien" toJunction="MarienOst" numLanes="2" speed="13.89" length="211.95999999999998">
+        <extconnction fromNode="Marien@marienout" from_x="883.7950000000001" from_y="-1909.8000000000002" toNode="MarienOst@marienout.210" to_x="1094.47" to_y="-1933.13" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="schiffgrabenin+schiffgrabenin.5+schiffgrabenin.90" fromJunction="SchiffgrabenIn" toJunction="AegiNord" numLanes="3" speed="13.89" length="118.4955892610204">
+        <extconnction fromNode="SchiffgrabenIn@schiffgrabenin" from_x="230.585" from_y="-1932.3049999999998" toNode="AegiNord@schiffgrabenin.90" to_x="212.51999999999998" to_y="-1815.5966666666666" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="schiffgrabenout+schiffgrabenout.160" fromJunction="AegiNord" toJunction="SchiffgrabenOut" numLanes="2" speed="13.89" length="148.49">
+        <extconnction fromNode="AegiNord@schiffgrabenout" from_x="222.905" from_y="-1812.105" toNode="SchiffgrabenOut@schiffgrabenout.160" to_x="271.78499999999997" to_y="-1952.3249999999998" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="schlaegermitte-geibelmitte" fromJunction="SchlaegerMitte" toJunction="GeibelMitte" numLanes="1" speed="8.33" length="341.21">
+        <extconnction fromNode="SchlaegerMitte@schlaegermitte-geibelmitte" from_x="833.09" from_y="-1122.73" toNode="GeibelMitte@schlaegermitte-geibelmitte" to_x="1063.05" to_y="-870.66" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegermitte-krausenost" fromJunction="SchlaegerMitte" toJunction="KrausenOst" numLanes="1" speed="8.33" length="343.38">
+        <extconnction fromNode="SchlaegerMitte@schlaegermitte-krausenost" from_x="836.36" from_y="-1129.23" toNode="KrausenOst@schlaegermitte-krausenost" to_x="1146.35" to_y="-1276.92" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegermitte-krausenwest" fromJunction="SchlaegerMitte" toJunction="KrausenWest" numLanes="1" speed="8.33" length="234.48">
+        <extconnction fromNode="SchlaegerMitte@schlaegermitte-krausenwest" from_x="823.27" from_y="-1126.58" toNode="KrausenWest@schlaegermitte-krausenwest" to_x="612.48" to_y="-1023.9" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegermitte-schlaegerost" fromJunction="SchlaegerMitte" toJunction="SchlaegerOst" numLanes="1" speed="8.33" length="407.78">
+        <extconnction fromNode="SchlaegerMitte@schlaegermitte-schlaegerost" from_x="825.47" from_y="-1133.56" toNode="SchlaegerOst@schlaegermitte-schlaegerost" to_x="490.06" to_y="-1365.47" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegernord-aegiesued+schlaegernord-aegiesued.200" fromJunction="SchlaegerNord" toJunction="AegiSued" numLanes="4" speed="13.89" length="387.39266343656516">
+        <extconnction fromNode="SchlaegerNord@schlaegernord-aegiesued" from_x="430.08666666666664" from_y="-1384.07" toNode="AegiSued@schlaegernord-aegiesued.200" to_x="218.415" to_y="-1708.0275000000001" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="schlaegernord-krausenwest" fromJunction="SchlaegerNord" toJunction="KrausenWest" numLanes="2" speed="13.89" length="393.15">
+        <extconnction fromNode="SchlaegerNord@schlaegernord-krausenwest" from_x="421.88" from_y="-1373.28" toNode="KrausenWest@schlaegernord-krausenwest" to_x="600.19" to_y="-1022.9" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegernord-schlaegerost" fromJunction="SchlaegerNord" toJunction="SchlaegerOst" numLanes="1" speed="8.33" length="54.29">
+        <extconnction fromNode="SchlaegerNord@schlaegernord-schlaegerost" from_x="432.45" from_y="-1380.08" toNode="SchlaegerOst@schlaegernord-schlaegerost" to_x="484.88" to_y="-1366.0" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="schlaegerost-schlaegermitte" fromJunction="SchlaegerOst" toJunction="SchlaegerMitte" numLanes="1" speed="8.33" length="407.78">
+        <extconnction fromNode="SchlaegerOst@schlaegerost-schlaegermitte" from_x="488.19" from_y="-1362.76" toNode="SchlaegerMitte@schlaegerost-schlaegermitte" to_x="823.6" to_y="-1130.85" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    <extlink id="schlaegerost-schlaegernord+schlaegerost-schlaegernord.30" fromJunction="SchlaegerOst" toJunction="SchlaegerNord" numLanes="2" speed="8.33" length="54.71342664592066">
+        <extconnction fromNode="SchlaegerOst@schlaegerost-schlaegernord" from_x="486.59" from_y="-1372.38" toNode="SchlaegerNord@schlaegerost-schlaegernord.30" to_x="433.73" to_y="-1384.8600000000001" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="stresemannalleein+stresemannalleein.5" fromJunction="Stresemannallee" toJunction="AltenbekenerOst" numLanes="1" speed="13.89" length="104.41">
+        <extconnction fromNode="Stresemannallee@stresemannalleein" from_x="1607.58" from_y="-346.0" toNode="AltenbekenerOst@stresemannalleein.5" to_x="1564.49" to_y="-441.11" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="stresemannalleeout+stresemannalleeout.100" fromJunction="AltenbekenerOst" toJunction="Stresemannallee" numLanes="1" speed="13.89" length="104.42">
+        <extconnction fromNode="AltenbekenerOst@stresemannalleeout" from_x="1561.48" from_y="-439.74" toNode="Stresemannallee@stresemannalleeout.100" to_x="1604.58" to_y="-344.64" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="stuevesin+stuevesin.5+stuevesin.150" fromJunction="Stueves" toJunction="GeibelMitte" numLanes="2" speed="8.33" length="190.78039836861137">
+        <extconnction fromNode="Stueves@stuevesin" from_x="1231.45" from_y="-742.39" toNode="GeibelMitte@stuevesin.150" to_x="1081.8249999999998" to_y="-860.085" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--External Link-->
+    
+    <!--External Link-->
+    <extlink id="stuevesout+stuevesout.200" fromJunction="GeibelMitte" toJunction="Stueves" numLanes="1" speed="8.33" length="190.35999999999999">
+        <extconnction fromNode="GeibelMitte@stuevesout" from_x="1078.73" from_y="-856.22" toNode="Stueves@stuevesout.200" to_x="1227.33" to_y="-737.24" dir="s"/>
+    </extlink>
+    <!--External Link-->
+    
+    <!--Origin-->
+    <origin id="HildesheimerIn@hildesheimerin" x="1097.3" y="-29.55" lane="2" junction="HildesheimerIn">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="0"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="454"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="60"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="4720"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="4812"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="68"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="13"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="364"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="743"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="125"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="46"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="46"/>
+    </origin>
+    <!--Origin-->
+    <origin id="AltenbekenerWestinout@altenbekenerwestin" x="702.08" y="-223.46" lane="1" junction="AltenbekenerWestinout">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="860"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="0"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="0"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="0"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="2125"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="79"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="7"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="7"/>
+    </origin>
+    <!--Origin-->
+    <origin id="SchiffgrabenIn@schiffgrabenin" x="230.585" y="-1932.3049999999998" lane="2" junction="SchiffgrabenIn">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="3488"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="204"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="529"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="6068"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="0"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="0"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="0"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="0"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="0"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Mainzer@mainzerin" x="2041.8" y="-407.3" lane="1" junction="Mainzer">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="0"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="25"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="13"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="2182"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="2"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="149"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="2694"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="0"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="5"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="5"/>
+    </origin>
+    <!--Origin-->
+    <origin id="FriedrichswallIn@friedrichswallin" x="2.02" y="-1676.95" lane="3" junction="FriedrichswallIn">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="4042"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="0"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="6767"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="7224"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="105"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="600"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="100"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="179"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="68"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="68"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Krausen@krausenin" x="1254.72" y="-1325.49" lane="1" junction="Krausen">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="350"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="139"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="767"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="559"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="468"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="4"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="941"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="2"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="18"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="27"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="80"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="10"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="10"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Georg@georgin" x="126.89" y="-1928.25" lane="1" junction="Georg">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="177"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="24"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="6"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="437"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="559"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="504"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="558"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="7"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="40"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="1"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="6"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="3"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="3"/>
+    </origin>
+    <!--Origin-->
+    <origin id="BerlineralleeIn@berlineralleein" x="768.79" y="-2090.545" lane="2" junction="BerlineralleeIn">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="87"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="3"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="289"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="0"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="9897"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="263"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="623"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="1513"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="1167"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="272"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="272"/>
+    </origin>
+    <!--Origin-->
+    <origin id="MarienOst@marienin" x="1093.02" y="-1946.25" lane="2" junction="MarienOst">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="21"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="19"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="14"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="1019"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="7084"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="2526"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="7552"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="350"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="0"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="1"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="14"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="3"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="3"/>
+    </origin>
+    <!--Origin-->
+    <origin id="LutherOst@lutherin" x="1124.73" y="-1653.79" lane="1" junction="LutherOst">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="0"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="38"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="2"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="697"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="1"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="0"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="0"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="0"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="0"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Lindemannallee@lindemannalleein" x="2041.87" y="-699.73" lane="1" junction="Lindemannallee">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="338"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="2937"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="72"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="1"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="0"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="0"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="2740"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="0"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="919"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="919"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Stresemannallee@stresemannalleein" x="1607.58" y="-346.0" lane="1" junction="Stresemannallee">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="194"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="156"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="152"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="1"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="170"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="8"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="0"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="1233"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="6"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="39"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="228"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="9"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="3"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="3"/>
+    </origin>
+    <!--Origin-->
+    <origin id="AnDTiefenriedeNord@andertiefenriedenordin" x="1207.38" y="-607.73" lane="1" junction="AnDTiefenriedeNord">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="69"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="15"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="71"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="69"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="43"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="310"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="18"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="86"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="1003"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="51"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="2"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="1"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="1"/>
+    </origin>
+    <!--Origin-->
+    <origin id="GeibelWest@geibelin" x="568.64" y="-620.57" lane="1" junction="GeibelWest">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="0"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="9"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="421"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="673"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="29"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="609"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="278"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="21"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="103"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="60"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="60"/>
+    </origin>
+    <!--Origin-->
+    <origin id="BuergermeisterFink@buergermeisterfinkin" x="434.29" y="-970.6" lane="1" junction="BuergermeisterFink">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="329"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="0"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="0"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="55"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="0"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="651"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="0"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="3"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="330"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="0"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="0"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="2"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="0"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="0"/>
+    </origin>
+    <!--Origin-->
+    <origin id="Stueves@stuevesin" x="1231.45" y="-742.39" lane="1" junction="Stueves">
+        <destination id="HildesheimerOut@hildesheimerout.310" x="1080.73" y="1.28" lane="2" junction="HildesheimerOut" demand="69"/>
+        <destination id="AltenbekenerWestinout@altenbekenerwestout.260" x="700.59" y="-229.89" lane="1" junction="AltenbekenerWestinout" demand="15"/>
+        <destination id="SchiffgrabenOut@schiffgrabenout.160" x="271.78499999999997" y="-1952.3249999999998" lane="2" junction="SchiffgrabenOut" demand="71"/>
+        <destination id="Mainzer@mainzerout.250" x="2036.93" y="-402.85" lane="1" junction="Mainzer" demand="0"/>
+        <destination id="FriedrichswallOut@friedrichswallout.140" x="-0.41999999999999993" y="-1713.58" lane="3" junction="FriedrichswallOut" demand="69"/>
+        <destination id="Krausen@krausenout.100" x="1255.98" y="-1322.43" lane="1" junction="Krausen" demand="0"/>
+        <destination id="Georg@georgout.150" x="132.48" y="-1931.77" lane="1" junction="Georg" demand="43"/>
+        <destination id="BerlineralleeOut@berlineralleeout.190" x="794.605" y="-2096.075" lane="2" junction="BerlineralleeOut" demand="310"/>
+        <destination id="MarienOst@marienout.210" x="1094.47" y="-1933.13" lane="2" junction="MarienOst" demand="18"/>
+        <destination id="LutherOst@lutherout.130" x="1125.57" y="-1650.59" lane="1" junction="LutherOst" demand="0"/>
+        <destination id="Lindemannallee@lindemannalleeout.200" x="2046.48" y="-690.97" lane="1" junction="Lindemannallee" demand="84"/>
+        <destination id="Stresemannallee@stresemannalleeout.100" x="1604.58" y="-344.64" lane="1" junction="Stresemannallee" demand="1003"/>
+        <destination id="AnDTiefenriedeNord@andertiefenriedenordout.250" x="1213.97" y="-607.32" lane="1" junction="AnDTiefenriedeNord" demand="51"/>
+        <destination id="GeibelWest@geibelout.200" x="565.79" y="-626.53" lane="1" junction="GeibelWest" demand="2"/>
+        <destination id="BuergermeisterFink@buergermeisterfinkout.170" x="433.43" y="-973.78" lane="1" junction="BuergermeisterFink" demand="1"/>
+        <destination id="Stueves@stuevesout.200" x="1227.33" y="-737.24" lane="1" junction="Stueves" demand="1"/>
+    </origin>
+</localnetwork>

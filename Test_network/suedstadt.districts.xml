@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<tazs>
+    <taz id="hildesheimerin">
+        <tazSource id="hildesheimerin" weight="1"/>
+        <tazSink id="hildesheimerout.310" weight="1"/>
+
+    </taz>
+
+    <taz id="altenbekenerwestin">
+
+        <tazSource id="altenbekenerwestin" weight="1"/>
+        <tazSink id="altenbekenerwestout.260" weight="1"/>
+
+
+    </taz>
+
+    <taz id="schiffgrabenin">
+
+        <tazSource id="schiffgrabenin" weight="1"/>
+        <tazSink id="schiffgrabenout.160" weight="1"/>
+
+    </taz>
+
+    <taz id="mainzerin">
+
+        <tazSource id="mainzerin" weight="1"/>
+        <tazSink id="mainzerout.250" weight="1"/>
+
+    </taz>
+
+    <taz id="friedrichswallin">
+
+        <tazSource id="friedrichswallin" weight="1"/>
+        <tazSink id="friedrichswallout.140" weight="1"/>
+
+    </taz>
+
+    <taz id="krausenin">
+
+        <tazSource id="krausenin" weight="1"/>
+        <tazSink id="krausenout.100" weight="1"/>
+
+    </taz>
+
+    <taz id="georgin">
+
+        <tazSource id="georgin" weight="1"/>
+        <tazSink id="georgout.150" weight="1"/>
+
+    </taz>
+
+    <taz id="berlineralleein">
+
+        <tazSource id="berlineralleein" weight="1"/>
+        <tazSink id="berlineralleeout.190" weight="1"/>
+
+    </taz>
+
+    <taz id="marienin">
+
+        <tazSource id="marienin" weight="1"/>
+        <tazSink id="marienout.210" weight="1"/>
+
+    </taz>
+
+    <taz id="lutherin">
+
+        <tazSource id="lutherin" weight="1"/>
+        <tazSink id="lutherout.130" weight="1"/>
+
+    </taz>
+
+    <taz id="lindemannalleein">
+
+        <tazSource id="lindemannalleein" weight="1"/>
+        <tazSink id="lindemannalleeout.200" weight="1"/>
+
+    </taz>
+
+    <taz id="stresemannalleein">
+
+        <tazSource id="stresemannalleein" weight="1"/>
+        <tazSink id="stresemannalleeout.100" weight="1"/>
+
+    </taz>
+
+    <taz id="andertiefenriedenordin">
+
+        <tazSource id="andertiefenriedenordin" weight="1"/>
+        <tazSink id="andertiefenriedenordout.250" weight="1"/>
+
+    </taz>
+
+    <taz id="geibelin">
+
+        <tazSource id="geibelin" weight="1"/>
+        <tazSink id="geibelout.200" weight="1"/>
+
+    </taz>
+
+    <taz id="buergermeisterfinkin">
+
+        <tazSource id="buergermeisterfinkin" weight="1"/>
+        <tazSink id="buergermeisterfinkout.170" weight="1"/>
+
+    </taz>
+
+    <taz id="stuevesin">
+
+        <tazSource id="stuevesin" weight="1"/>
+        <tazSink id="stuevesout.200" weight="1"/>
+
+    </taz>
+
+</tazs>

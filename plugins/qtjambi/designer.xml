@@ -1,0 +1,14 @@
+<qt-jambi-custom-widget-list>
+    <qt-jambi-custom-widget
+        class="gui.LoadLocalNetwork"
+        group="SocialCarsLTP"
+    />
+    <qt-jambi-custom-widget
+        class="gui.MainWindow"
+        group="SocialCarsLTP"
+    />
+    <qt-jambi-custom-widget
+        class="gui.NetworkConvert"
+        group="SocialCarsLTP"
+    />
+</qt-jambi-custom-widget-list>
