@@ -6,7 +6,7 @@ Left turns may generate efficiency problems which can be solved by appropriately
 
 If you use **Lane-based signal optimization with left turn prohibition in urban road networks** in your research, please cite:
 ```bibtex
-@article{lanebasedltp,
+@article{lanebased2018,
   title={Lane-based signal optimization with left turn prohibition in urban road networks},
   author={Tang, Qinrui and Liu, Huijun and Friedrich, Bernhard},
   journal={Canadian Journal of Civil Engineering},
