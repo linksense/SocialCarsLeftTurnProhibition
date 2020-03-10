@@ -15,5 +15,6 @@ If you use **Lane-based Signal Optimization with Left Turn Prohibition in Urban 
 }
 ```
 <p align="center">
-<img src="https://github.com/ansleliu/SocialCarsLeftTurnProhibition/blob/master/SCLTP.PNG" />
+  <img src="https://github.com/ansleliu/SocialCarsLeftTurnProhibition/blob/master/SCLTP.PNG" />
+  <img src="https://github.com/ansleliu/SocialCarsLeftTurnProhibition/blob/master/SCS.jpg" />
 </p>
