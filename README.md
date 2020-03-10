@@ -14,3 +14,6 @@ If you use **Lane-based Signal Optimization with Left Turn Prohibition in Urban 
   year={2018}
 }
 ```
+<p align="center">
+<img src="https://github.com/ansleliu/SocialCarsLeftTurnProhibition/blob/master/SCLTP.PNG" />
+</p>
